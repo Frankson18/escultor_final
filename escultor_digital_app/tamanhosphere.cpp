@@ -12,3 +12,8 @@ tamanhoSphere::~tamanhoSphere()
 {
     delete ui;
 }
+
+int tamanhoSphere::getRaio()
+{
+    ui->spinBoxEsperaR->value();
+}

@@ -25,13 +25,13 @@ void Plotter::paintEvent(QPaintEvent *event)
     painter.setBrush(brush);
 
     int contx=0,conty=0;
-    for (int i=1;i<=this->ny;i++) {
+    for (int i=1;i<=ny;i++) {
         contx=0;
-        for (int j=1;j<=this->nx;j++) {
-            painter.drawRect(contx,conty,width()/this->nx,height()/this->ny);
-            contx+=(float)(width()/this->nx);
+        for (int j=1;j<=nx;j++) {
+            painter.drawRect(contx,conty,width()/nx,height()/ny);
+            contx+=(float)(width()/nx);
         }
-        conty+=(float)(height()/this->ny);
+        conty+=(float)(height()/ny);
     }
 
 
@@ -39,15 +39,59 @@ void Plotter::paintEvent(QPaintEvent *event)
 
 void Plotter::setX(int _nx)
 {
-    this->nx = _nx;
+    nx = _nx;
 }
 
 void Plotter::setY(int _ny)
 {
-    this->ny = _ny;
+    ny = _ny;
 }
 
 void Plotter::setZ(int _nz)
 {
-    this->nz = _nz;
+    nz = _nz;
 }
+
+void Plotter::setBoxX(int _x1)
+{
+    x1 = _x1;
+}
+
+void Plotter::setBoxY(int _y1)
+{
+    y1 = _y1;
+}
+
+void Plotter::setBoxZ(int _z1)
+{
+    z1 = _z1;
+}
+
+void Plotter::setRaioX(int _xcenter)
+{
+    xcenter = _xcenter;
+}
+
+void Plotter::setRaioY(int _ycenter)
+{
+    ycenter = _ycenter;
+}
+
+void Plotter::setRaioZ(int _zcenter)
+{
+    zcenter = _zcenter;
+}
+
+void Plotter::setRaioE(int _raioE)
+{
+    raioE = _raioE;
+}
+
+void Plotter::setRaio(int _RaioS)
+{
+    RaioS = _RaioS;
+}
+
+
+
+

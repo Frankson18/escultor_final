@@ -11,6 +11,9 @@ class Plotter : public QWidget
 
 private:
     int nx=10,ny=10,nz=10;
+    int x1,y1,z1;
+    int raioE, RaioS;
+    int xcenter,ycenter,zcenter;
 
 public:
     explicit Plotter(QWidget *parent = nullptr);
@@ -18,6 +21,14 @@ public:
     void setX(int);
     void setY(int);
     void setZ(int);
+    void setBoxX(int);
+    void setBoxY(int);
+    void setBoxZ(int);
+    void setRaioX(int);
+    void setRaioY(int);
+    void setRaioZ(int);
+    void setRaioE(int);
+    void setRaio(int);
     Sculptor *sculptor;
 
 signals:

@@ -14,6 +14,9 @@ class tamanhoBox : public QDialog
 public:
     explicit tamanhoBox(QWidget *parent = nullptr);
     ~tamanhoBox();
+    int getBoxX();
+    int getBoxY();
+    int getBoxZ();
 
 private:
     Ui::tamanhoBox *ui;

@@ -14,6 +14,10 @@ class tamanhoEllipsoid : public QDialog
 public:
     explicit tamanhoEllipsoid(QWidget *parent = nullptr);
     ~tamanhoEllipsoid();
+    int getRaioX();
+    int getRaioY();
+    int getRaioZ();
+    int getRaioE();
 
 private:
     Ui::tamanhoEllipsoid *ui;

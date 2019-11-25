@@ -40,7 +40,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QSpinBox" name="spinBox"/>
+             <widget class="QSpinBox" name="spinBoxBoxX"/>
             </item>
            </layout>
           </item>
@@ -57,7 +57,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QSpinBox" name="spinBox_2"/>
+             <widget class="QSpinBox" name="spinBoxBoxY"/>
             </item>
            </layout>
           </item>
@@ -74,7 +74,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QSpinBox" name="spinBox_3"/>
+             <widget class="QSpinBox" name="spinBoxBoxZ"/>
             </item>
            </layout>
           </item>

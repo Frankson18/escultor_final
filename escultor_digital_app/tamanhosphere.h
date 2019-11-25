@@ -14,6 +14,7 @@ class tamanhoSphere : public QDialog
 public:
     explicit tamanhoSphere(QWidget *parent = nullptr);
     ~tamanhoSphere();
+    int getRaio();
 
 private:
     Ui::tamanhoSphere *ui;

@@ -12,3 +12,18 @@ tamanhoBox::~tamanhoBox()
 {
     delete ui;
 }
+
+int tamanhoBox::getBoxX()
+{
+    ui->spinBoxBoxX->value();
+}
+
+int tamanhoBox::getBoxY()
+{
+    ui->spinBoxBoxY->value();
+}
+
+int tamanhoBox::getBoxZ()
+{
+    ui->spinBoxBoxZ->value();
+}
