@@ -26,13 +26,30 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+        plotter.cpp \
+        sculptor.cpp \
+        tamanhobox.cpp \
+        tamanhoellipsoid.cpp \
+        tamanhosculptor.cpp \
+        tamanhosphere.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+        plotter.h \
+        sculptor.h \
+        tamanhobox.h \
+        tamanhoellipsoid.h \
+        tamanhosculptor.h \
+        tamanhosphere.h \
+        voxel.h
 
 FORMS += \
-        mainwindow.ui
+        mainwindow.ui \
+        tamanhobox.ui \
+        tamanhoellipsoid.ui \
+        tamanhosculptor.ui \
+        tamanhosphere.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
