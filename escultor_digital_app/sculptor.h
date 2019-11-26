@@ -31,6 +31,10 @@ public:
   void putEllipsoid(int xcenter, int ycenter, int zcenter, int rx, int ry, int rz);
   void cutEllipsoid(int xcenter, int ycenter, int zcenter, int rx, int ry, int rz);
   void writeOFF(char* filename);
+  bool getisOn(int i,int j,int k);
+  float getR(int i, int j, int k);
+  float getG(int i, int j, int k);
+  float getB(int i, int j, int k);
 };
 
 #endif // SCULPTOR_H

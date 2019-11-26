@@ -4,33 +4,47 @@
 #include <QWidget>
 #include <QAction>
 #include "sculptor.h"
+#include <QMouseEvent>
 
 class Plotter : public QWidget
 {
     Q_OBJECT
 
 private:
-    int nx=10,ny=10,nz=10;
-    int x1,y1,z1;
-    int raioE, RaioS;
-    int xcenter,ycenter,zcenter;
 
 public:
     explicit Plotter(QWidget *parent = nullptr);
     void paintEvent(QPaintEvent *event);
-    void setX(int);
-    void setY(int);
-    void setZ(int);
-    void setBoxX(int);
-    void setBoxY(int);
-    void setBoxZ(int);
-    void setRaioX(int);
-    void setRaioY(int);
-    void setRaioZ(int);
-    void setRaioE(int);
-    void setRaio(int);
-    Sculptor *sculptor;
+    void changeSculptor(int sx,int sy, int sz);
+    void changePutBox(int dx, int dy, int dz);
+    void changePutSphere(int r);
+    void changePutEllipsoid(int raioX, int raioY, int raioZ);
+    void changePlano(int _Dz);
+    void goPutVoxel();
+    void goCutVoxel();
+    void goPutBox();
+    void goCutBox();
+    void goPutSphere();
+    void goCutSphere();
+    void goPutEllipsoid();
+    void goCutEllipsoid();
+    void mouseMoveEvent(QMouseEvent *event);
+    void mousePressEvent(QMouseEvent *event);
 
+    Sculptor *sculptor;
+    int dx=0, dy=0, Dz=0;
+    int nx=10,ny=10,nz=10;
+    int x1=0,y1=0,z1=0;
+    int RaioS=0;
+    int xraios=0,yraios=0,zraios=0;
+    bool putvoxel=false;
+    bool cutvoxel=false;
+    bool putbox=false;
+    bool cutbox=false;
+    bool putsphere=false;
+    bool cutsphere=false;
+    bool putellipsoid=false;
+    bool cutellipsoid= false;
 signals:
 
 public slots:

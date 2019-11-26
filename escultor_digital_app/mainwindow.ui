@@ -14,8 +14,8 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <layout class="QHBoxLayout" name="horizontalLayout_2">
-    <item>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
      <layout class="QVBoxLayout" name="verticalLayout" stretch="90,10">
       <item>
        <widget class="Plotter" name="widget" native="true">
@@ -235,12 +235,12 @@
    <slot>setNum(int)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>300</x>
-     <y>328</y>
+     <x>149</x>
+     <y>449</y>
     </hint>
     <hint type="destinationlabel">
-     <x>348</x>
-     <y>329</y>
+     <x>425</x>
+     <y>450</y>
     </hint>
    </hints>
   </connection>

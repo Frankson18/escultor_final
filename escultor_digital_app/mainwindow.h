@@ -26,9 +26,15 @@ public:
 public slots:
     void fecharTudo();
     void mudaDimensao();
+    void mudaPlanoZ(int);
+    void put_Voxel();
+    void cut_Voxel();
     void put_Box();
+    void cut_Box();
     void put_Sphere();
+    void cut_Sphere();
     void put_Ellipsoid();
+    void cut_Ellipsoid();
 
 
 private:
@@ -37,6 +43,7 @@ private:
     tamanhoBox dialog_pb;
     tamanhoSphere dialog_ps;
     tamanhoEllipsoid dialog_pe;
+
 };
 
 #endif // MAINWINDOW_H
