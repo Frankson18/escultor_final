@@ -8,6 +8,8 @@
 #include "tamanhobox.h"
 #include "tamanhosphere.h"
 #include "tamanhoellipsoid.h"
+#include "definecolors.h"
+
 #include "QMessageBox"
 
 namespace Ui {
@@ -25,6 +27,7 @@ public:
 
 public slots:
     void fecharTudo();
+    void salvar();
     void mudaDimensao();
     void mudaPlanoZ(int);
     void put_Voxel();
@@ -35,15 +38,14 @@ public slots:
     void cut_Sphere();
     void put_Ellipsoid();
     void cut_Ellipsoid();
-
-
+    void coloca_cor();
 private:
     Ui::MainWindow *ui;
     TamanhoSculptor d;
     tamanhoBox dialog_pb;
     tamanhoSphere dialog_ps;
     tamanhoEllipsoid dialog_pe;
-
+    definecolors dialog_pc;
 };
 
 #endif // MAINWINDOW_H

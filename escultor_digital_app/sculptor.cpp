@@ -4,6 +4,7 @@
 #include <string>
 #include <iostream>
 #include <vector>
+#include <iomanip>
 
 using namespace std;
 
@@ -185,7 +186,7 @@ void Sculptor::cutEllipsoid(int xcenter, int ycenter, int zcenter, int rx, int r
     }
 }
 
-void Sculptor::writeOFF(char* filename)
+void Sculptor::writeOFF(const char* filename)
 {
     int n_vertices = 0, n_faces = 0, n_arestas = 0;
         ofstream fileout;
@@ -193,6 +194,7 @@ void Sculptor::writeOFF(char* filename)
         if(!fileout.is_open()){
             exit(0);
         }
+        fileout << std::fixed << std::setprecision(1) << std::endl;
         for(int i = 0; i < nx; i++){
             for(int j = 0; j < ny; j++){
                 for(int k = 0; k < nz; k++){

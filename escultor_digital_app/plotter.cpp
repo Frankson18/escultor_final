@@ -5,6 +5,7 @@
 
 
 
+
 Plotter::Plotter(QWidget *parent) : QWidget(parent)
 {
     sculptor= new Sculptor(10,10,10);
@@ -86,6 +87,13 @@ void Plotter::changePlano(int _Dz)
     repaint();
 }
 
+void Plotter::changeColors(int cr, int cg, int cb)
+{
+    r=cr;
+    g=cg;
+    b=cb;
+}
+
 void Plotter::goPutVoxel()
 {
     putvoxel = true;
@@ -96,7 +104,6 @@ void Plotter::goPutVoxel()
     cutsphere = false;
     putellipsoid = false;
     cutellipsoid = false;
-
 }
 
 void Plotter::goCutVoxel()
@@ -109,7 +116,6 @@ void Plotter::goCutVoxel()
     cutsphere = false;
     putellipsoid = false;
     cutellipsoid = false;
-
 }
 
 void Plotter::goPutBox()
@@ -122,7 +128,6 @@ void Plotter::goPutBox()
     cutsphere = false;
     putellipsoid = false;
     cutellipsoid = false;
-
 }
 
 void Plotter::goCutBox()
@@ -135,7 +140,6 @@ void Plotter::goCutBox()
     cutsphere = false;
     putellipsoid = false;
     cutellipsoid = false;
-
 }
 
 void Plotter::goPutSphere()
@@ -148,7 +152,6 @@ void Plotter::goPutSphere()
     cutsphere = false;
     putellipsoid = false;
     cutellipsoid = false;
-
 }
 
 void Plotter::goCutSphere()
@@ -161,7 +164,6 @@ void Plotter::goCutSphere()
     cutsphere = true;
     putellipsoid = false;
     cutellipsoid = false;
-
 }
 
 void Plotter::goPutEllipsoid()
@@ -174,7 +176,6 @@ void Plotter::goPutEllipsoid()
     cutsphere = false;
     putellipsoid = true;
     cutellipsoid = false;
-
 }
 
 void Plotter::goCutEllipsoid()
@@ -187,7 +188,6 @@ void Plotter::goCutEllipsoid()
     cutsphere = false;
     putellipsoid = false;
     cutellipsoid = true;
-
 }
 
 void Plotter::mouseMoveEvent(QMouseEvent *event)
@@ -200,31 +200,34 @@ void Plotter::mouseMoveEvent(QMouseEvent *event)
     dy=(dy/coluna);
 
     if(putvoxel){
+        sculptor->setColor(r,g,b,1);
         sculptor->putVoxel(dx,dy,Dz);
     }
     if(cutvoxel){
         sculptor->cutVoxel(dx,dy,Dz);
     }
     if(putbox){
+        sculptor->setColor(r,g,b,1);
         sculptor->putBox(dx,dx+x1-1,dy,dy+y1-1,Dz,Dz+z1-1);
     }
     if(cutbox){
         sculptor->cutBox(dx,dx+x1,dy,dy+y1,Dz,Dz+z1);
     }
     if(putsphere){
+        sculptor->setColor(r,g,b,1);
         sculptor->putSphere(dx,dy,Dz,RaioS);
     }
     if(cutsphere){
         sculptor->cutSphere(dx,dy,Dz,RaioS);
     }
     if(putellipsoid){
+        sculptor->setColor(r,g,b,1);
         sculptor->putEllipsoid(dx,dy,Dz,xraios,yraios,zraios);
     }
     if(cutellipsoid){
         sculptor->cutEllipsoid(dx,dy,Dz,xraios,yraios,zraios);
     }
     repaint();
-
 }
 
 void Plotter::mousePressEvent(QMouseEvent *event)
@@ -238,24 +241,28 @@ void Plotter::mousePressEvent(QMouseEvent *event)
     dy=(dy/coluna);
 
     if(putvoxel){
+        sculptor->setColor(r,g,b,1);
         sculptor->putVoxel(dx,dy,Dz);
     }
     if(cutvoxel){
         sculptor->cutVoxel(dx,dy,Dz);
     }
     if(putbox){
+        sculptor->setColor(r,g,b,1);
         sculptor->putBox(dx,dx+x1-1,dy,dy+y1-1,Dz,Dz+z1-1);
     }
     if(cutbox){
         sculptor->cutBox(dx,dx+x1,dy,dy+y1,Dz,Dz+z1);
     }
     if(putsphere){
+        sculptor->setColor(r,g,b,1);
         sculptor->putSphere(dx,dy,Dz,RaioS);
     }
     if(cutsphere){
         sculptor->cutSphere(dx,dy,Dz,RaioS);
     }
     if(putellipsoid){
+        sculptor->setColor(r,g,b,1);
         sculptor->putEllipsoid(dx,dy,Dz,xraios,yraios,zraios);
     }
     if(cutellipsoid){

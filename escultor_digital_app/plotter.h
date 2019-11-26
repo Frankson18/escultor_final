@@ -5,6 +5,8 @@
 #include <QAction>
 #include "sculptor.h"
 #include <QMouseEvent>
+#include <QString>
+#include <QFileDialog>
 
 class Plotter : public QWidget
 {
@@ -20,6 +22,7 @@ public:
     void changePutSphere(int r);
     void changePutEllipsoid(int raioX, int raioY, int raioZ);
     void changePlano(int _Dz);
+    void changeColors(int cr, int cg, int cb);
     void goPutVoxel();
     void goCutVoxel();
     void goPutBox();
@@ -28,11 +31,13 @@ public:
     void goCutSphere();
     void goPutEllipsoid();
     void goCutEllipsoid();
+    //void goSetColor();
     void mouseMoveEvent(QMouseEvent *event);
     void mousePressEvent(QMouseEvent *event);
 
     Sculptor *sculptor;
     int dx=0, dy=0, Dz=0;
+    float r=0,g=0,b=0;
     int nx=10,ny=10,nz=10;
     int x1=0,y1=0,z1=0;
     int RaioS=0;

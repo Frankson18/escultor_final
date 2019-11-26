@@ -16,7 +16,7 @@
   <widget class="QWidget" name="centralWidget">
    <layout class="QGridLayout" name="gridLayout">
     <item row="0" column="0">
-     <layout class="QVBoxLayout" name="verticalLayout" stretch="90,10">
+     <layout class="QVBoxLayout" name="verticalLayout" stretch="90,0">
       <item>
        <widget class="Plotter" name="widget" native="true">
         <property name="enabled">
@@ -54,7 +54,7 @@
          </size>
         </property>
         <property name="title">
-         <string>DImensões</string>
+         <string>Dimensões</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -100,7 +100,7 @@
      <x>0</x>
      <y>0</y>
      <width>463</width>
-     <height>22</height>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuMenu">
@@ -143,6 +143,7 @@
    <addaction name="actionCut_Sphere"/>
    <addaction name="actionPut_Ellipsoid"/>
    <addaction name="actionCut_Ellipsoid"/>
+   <addaction name="actionColor"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
   <action name="actionPut_Voxel">
@@ -200,6 +201,14 @@
     <string>MudaDimensao</string>
    </property>
   </action>
+  <action name="actionColor">
+   <property name="text">
+    <string>Color</string>
+   </property>
+   <property name="toolTip">
+    <string>Color</string>
+   </property>
+  </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <customwidgets>
@@ -239,8 +248,8 @@
      <y>449</y>
     </hint>
     <hint type="destinationlabel">
-     <x>425</x>
-     <y>450</y>
+     <x>442</x>
+     <y>454</y>
     </hint>
    </hints>
   </connection>

@@ -48,8 +48,14 @@ MainWindow::MainWindow(QWidget *parent) :
             SIGNAL(triggered(bool)),
             this,
             SLOT(cut_Ellipsoid()));
-
-
+    connect(ui->actionColor,
+            SIGNAL(triggered(bool)),
+            this,
+            SLOT(coloca_cor()));
+    connect(ui->actionSalvar,
+            SIGNAL(triggered(bool)),
+            this,
+            SLOT(salvar()));
 }
 
 MainWindow::~MainWindow()
@@ -60,6 +66,14 @@ MainWindow::~MainWindow()
 void MainWindow::fecharTudo()
 {
     exit(0);
+}
+
+void MainWindow::salvar()
+{
+    QString qs=QFileDialog::getSaveFileName();
+    qs=qs+".off";
+    //qDebug()<<qs;
+    ui->widget->sculptor->writeOFF(qs.toStdString().c_str());
 }
 
 void MainWindow::mudaDimensao()
@@ -124,16 +138,28 @@ void MainWindow::put_Voxel()
 }
 void MainWindow::cut_Box()
 {
+    ui->widget->goCutBox();
 }
 void MainWindow::cut_Sphere()
 {
-
+    ui->widget->goCutSphere();
 }
 void MainWindow::cut_Ellipsoid()
 {
+    ui->widget->goCutEllipsoid();
+}
 
+void MainWindow::coloca_cor()
+{
+    if(dialog_pc.exec()==QDialog::Accepted){
+        if(dialog_pc.getColorR()>=0 && dialog_pc.getColorR()<=255 && dialog_pc.getColorG()>=0 && dialog_pc.getColorG()<=255 && dialog_pc.getColorB()>=0 && dialog_pc.getColorB()<=255){
+            ui->widget->changeColors(dialog_pc.getColorR(),dialog_pc.getColorG(),dialog_pc.getColorB());
+        }else{
+            QMessageBox::information(this, tr("Erro"),tr("\nvalores inválidos, tente outra vez!\n"));
+        }
+    }
 }
 void MainWindow::cut_Voxel()
 {
-
+    ui->widget->goCutVoxel();
 }

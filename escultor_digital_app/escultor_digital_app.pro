@@ -25,6 +25,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+        definecolors.cpp \
         main.cpp \
         mainwindow.cpp \
         plotter.cpp \
@@ -35,6 +36,7 @@ SOURCES += \
         tamanhosphere.cpp
 
 HEADERS += \
+        definecolors.h \
         mainwindow.h \
         plotter.h \
         sculptor.h \
@@ -45,6 +47,7 @@ HEADERS += \
         voxel.h
 
 FORMS += \
+        definecolors.ui \
         mainwindow.ui \
         tamanhobox.ui \
         tamanhoellipsoid.ui \
