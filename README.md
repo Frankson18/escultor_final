@@ -1,4 +1,4 @@
-projeot da Terceira Unidade de Programação Avançada (DCA1202 - 2019.2)
+projeto da Terceira Unidade de Programação Avançada (DCA1202 - 2019.2)
 
 ESCULTOR 3D (PAINT) USANDO QT(c++)
 
