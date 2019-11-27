@@ -8,6 +8,14 @@
 #include <QString>
 #include <QFileDialog>
 
+/**
+ * @brief The Plotter class
+ * a classe responsável por todas as funções 
+ * de plotagem dos parâmetros e ações do usuário
+ * ao desenhar. As funções são usadas na mainwindow 
+ * de acordo com as ações.
+ */
+
 class Plotter : public QWidget
 {
     Q_OBJECT
@@ -31,7 +39,6 @@ public:
     void goCutSphere();
     void goPutEllipsoid();
     void goCutEllipsoid();
-    //void goSetColor();
     void mouseMoveEvent(QMouseEvent *event);
     void mousePressEvent(QMouseEvent *event);
 
