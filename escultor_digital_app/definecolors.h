@@ -3,6 +3,19 @@
 
 #include <QDialog>
 
+/**
+ * @brief The definecolors class
+ * a classe responsável pela caixa de diálogo
+ * que é aberta quando o usuário clica no método
+ * Color onde o usuário pode definir a cor dos
+ * objetos que serão desenhados pelos os outros 
+ * métodos. 
+ * @details 
+ * getColorR() retorna o valor inteiro da cor no índice Red.
+ * getColorG() retorna o valor inteiro da cor no índice Green.
+ * getColorB() retorna o valor inteiro da cor no índice Blue.
+ */
+
 namespace Ui {
 class definecolors;
 }
