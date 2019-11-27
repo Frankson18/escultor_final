@@ -1,0 +1,3567 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 9;}
+{\s50\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext51 List Continue 0;}
+{\s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext52 List Continue 1;}
+{\s52\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext53 List Continue 2;}
+{\s53\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext54 List Continue 3;}
+{\s54\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext55 List Continue 4;}
+{\s55\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext56 List Continue 5;}
+{\s56\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext57 List Continue 6;}
+{\s57\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext58 List Continue 7;}
+{\s58\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 8;}
+{\s59\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 9;}
+{\s60\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext61 DescContinue 0;}
+{\s61\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext62 DescContinue 1;}
+{\s62\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext63 DescContinue 2;}
+{\s63\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext64 DescContinue 3;}
+{\s64\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext65 DescContinue 4;}
+{\s65\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext66 DescContinue 5;}
+{\s66\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext67 DescContinue 6;}
+{\s67\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext68 DescContinue 7;}
+{\s68\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 8;}
+{\s69\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 9;}
+{\s70\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext81 LatexTOC 0;}
+{\s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext82 LatexTOC 1;}
+{\s72\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext83 LatexTOC 2;}
+{\s73\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext84 LatexTOC 3;}
+{\s74\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext85 LatexTOC 4;}
+{\s75\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext86 LatexTOC 5;}
+{\s76\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext87 LatexTOC 6;}
+{\s77\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext88 LatexTOC 7;}
+{\s78\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 8;}
+{\s79\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 9;}
+{\s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext81 \sautoupd List Bullet 0;}
+{\s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid \sbasedon0 \snext82 \sautoupd List Bullet 1;}
+{\s82\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls3\adjustright \fs20\cgrid \sbasedon0 \snext83 \sautoupd List Bullet 2;}
+{\s83\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls4\adjustright \fs20\cgrid \sbasedon0 \snext84 \sautoupd List Bullet 3;}
+{\s84\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls5\adjustright \fs20\cgrid \sbasedon0 \snext85 \sautoupd List Bullet 4;}
+{\s85\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls6\adjustright \fs20\cgrid \sbasedon0 \snext86 \sautoupd List Bullet 5;}
+{\s86\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls7\adjustright \fs20\cgrid \sbasedon0 \snext87 \sautoupd List Bullet 6;}
+{\s87\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls8\adjustright \fs20\cgrid \sbasedon0 \snext88 \sautoupd List Bullet 7;}
+{\s88\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls9\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 8;}
+{\s89\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls10\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 9;}
+{\s90\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext91 \sautoupd List Enum 0;}
+{\s91\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext92 \sautoupd List Enum 1;}
+{\s92\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext93 \sautoupd List Enum 2;}
+{\s93\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext94 \sautoupd List Enum 3;}
+{\s94\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext95 \sautoupd List Enum 4;}
+{\s95\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s96\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s97\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext98 \sautoupd List Enum 7;}
+{\s98\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 8;}
+{\s99\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 9;}
+}
+{\info 
+{\title {\comment Escultor Digital 3D  {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+3.0 \par
+}}Escultor Digital 3D}
+{\comment Gerado porDoxgyen. }
+{\creatim \yr2019\mo11\dy27\hr3\min20\sec17}
+}\pard\plain 
+\sectd\pgnlcrm
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\vertalc\qc\par\par\par\par\par\par\par
+\pard\plain \s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid 
+{\field\fldedit {\*\fldinst TITLE \\*MERGEFORMAT}{\fldrslt Escultor Digital 3D}}\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\par
+\par\par\par\par\par\par\par\par\par\par\par\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+{\field\fldedit {\*\fldinst AUTHOR \\*MERGEFORMAT}{\fldrslt AUTHOR}}\par
+Vers\'E3o 3.0\par{\field\fldedit {\*\fldinst CREATEDATE \\*MERGEFORMAT}{\fldrslt Quarta, 27 de Novembro de 2019 }}\par
+\page\page\vertalt
+\pard\plain 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Conte\'FAdo\par
+\pard\plain \par
+{\field\fldedit {\*\fldinst TOC \\f \\*MERGEFORMAT}{\fldrslt Table of contents}}\par
+\pard\plain 
+\sect \sbkpage \pgndec \pgnrestart
+\sect \sectd \sbknone
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Namespaces\par \pard\plain 
+{\tc \v Namespaces}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Lista de Namespaces\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Esta \'E9 a lista de todos os Namespaces com suas respectivas descri\'E7\'F5es:}
+{
+\par
+\pard\plain \s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b Ui} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The definecolors class a classe respons\'E1vel pela caixa de di\'E1logo que \'E9 aberta quando o usu\'E1rio clica no m\'E9todo Color onde o usu\'E1rio pode definir a cor dos objetos que ser\'E3o desenhados pelos os outros m\'E9todos })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAFR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'CDndice Hier\'E1rquico\par \pard\plain 
+{\tc \v \'CDndice Hier\'E1rquico}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Hierarquia de Classes\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Esta lista de hierarquias est\'E1 parcialmente ordenada (ordem alfab\'E9tica):}
+{
+\par
+\pard\plain \s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+QDialog
+{
+\par
+\pard\plain \s72\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+cores\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+definecolors\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+tamanhoBox\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEO \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+tamanhoEllipsoid\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEU \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+TamanhoSculptor\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAFB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+tamanhoSphere\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAFH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+QMainWindow
+{
+\par
+\pard\plain \s72\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+MainWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+QWidget
+{
+\par
+\pard\plain \s72\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+Plotter\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+Sculptor\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Voxel\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAFL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'CDndice dos Componentes\par \pard\plain 
+{\tc \v \'CDndice dos Componentes}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Lista de Componentes\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Aqui est\'E3o as classes, estruturas, uni\'F5es e interfaces e suas respectivas descri\'E7\'F5es:}
+{
+\par
+\pard\plain \s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b cores} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b definecolors} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b MainWindow} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Plotter} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The {\b Plotter} class a classe respons\'E1vel por todas as fun\'E7\'F5es de plotagem dos par\'E2metros e a\'E7\'F5es do usu\'E1rio ao desenhar })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Sculptor} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The {\b Sculptor} class a classe que possui a declara\'E7\'E3o de todos os m\'E9todos utilizados para cria\'E7\'E3o das figuras. E \'E9 respons\'E1vel por alocar uma matriz tridimensional de tamanho nx,ny,nz })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b tamanhoBox} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEO \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b tamanhoEllipsoid} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEU \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b TamanhoSculptor} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAFB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b tamanhoSphere} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAFH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Voxel} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The {\b Voxel} struct \'E9 a defini\'E7\'E3o do tipo de dados {\b Voxel}, os quais possuem informa\'E7\'E3o de cor, transpar\'EAncia e se ser\'E1 inclu\'EDdo ou n\'E3o no modelo da escultura digital })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAFL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'CDndice dos Arquivos\par \pard\plain 
+{\tc \v \'CDndice dos Arquivos}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Lista de Arquivos\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Esta \'E9 a lista de todos os arquivos e suas respectivas descri\'E7\'F5es:}
+{
+\par
+\pard\plain \s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b cores.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b cores.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b definecolors.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b definecolors.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b main.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b mainwindow.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b mainwindow.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b plotter.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b plotter.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b sculptor.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b sculptor.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b tamanhobox.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b tamanhobox.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b tamanhoellipsoid.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAO \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b tamanhoellipsoid.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b tamanhosculptor.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b tamanhosculptor.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b tamanhosphere.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAS \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b tamanhosphere.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b voxel.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAU \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Namespaces\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Ref\'EAncia do Namespace Ui\par \pard\plain 
+{\tc\tcl2 \v Ui}
+{\xe \v Ui}
+{\bkmkstart AAAAAAAAFR}
+{\bkmkend AAAAAAAAFR}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The definecolors class a classe respons\'E1vel pela caixa de di\'E1logo que \'E9 aberta quando o usu\'E1rio clica no m\'E9todo Color onde o usu\'E1rio pode definir a cor dos objetos que ser\'E3o desenhados pelos os outros m\'E9todos. }}\par
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o Detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The definecolors class a classe respons\'E1vel pela caixa de di\'E1logo que \'E9 aberta quando o usu\'E1rio clica no m\'E9todo Color onde o usu\'E1rio pode definir a cor dos objetos que ser\'E3o desenhados pelos os outros m\'E9todos. \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The {\b tamanhoSphere} class a classe respons\'E1vel pela caixa de di\'E1logo que \'E9 aberta quando o usu\'E1rio clica no m\'E9todo putSphere onde o usu\'E1rio pode definir o raio da esfera.\par
+The {\b TamanhoSculptor} class classe respons\'E1vel pela caixa de di\'E1logo aberta quando o usu\'E1rio clica no mudardimens\'E3o onde ele pode setar o tamanho dos planos x,y,z.\par
+The {\b tamanhoEllipsoid} class respons\'E1vel pela caixa de di\'E1logo aberta quando o usu\'E1rio clica no putellipsoid e o usu\'E1rio fornece os par\'E2metros do elipsoide as coordenadas x,y,z e o raio.\par
+The {\b tamanhoBox} class a classe respons\'E1vel pela caixa de di\'E1logo que \'E9 aberta quando o usu\'E1rio clica no m\'E9todo putBox onde o usu\'E1rio pode definir o tamanho da caixa nos eixos x,y,z.\par
+The {\b MainWindow} class a classe respons\'E1vel pela tela principal do projeto. Nela h\'E1 as conex\'F5es devido as a\'E7\'F5es que podem acontecer com a intera\'E7\'E3o do usu\'E1rio. Possui as fun\'E7\'F5es respons\'E1veis pela intera\'E7\'E3o e mudan\'E7a dos par\'E2metros fornecidos pelo usu\'E1rio para o desenho das figuras geom\'E9tricas.\par
+getColorR() retorna o valor inteiro da cor no \'EDndice Red. getColorG() retorna o valor inteiro da cor no \'EDndice Green. getColorB() retorna o valor inteiro da cor no \'EDndice Blue.\par
+d - declara\'E7\'E3o da caixa de di\'E1logo respons\'E1vel pelo tamanho do scultor. dialog_pb - declara\'E7\'E3o da caixa de di\'E1logo respons\'E1vel pelo tamanho do box. dialog_ps - declara\'E7\'E3o da caixa de di\'E1logo respons\'E1vel pelo tamanho da esfera. dialog_pe - declara\'E7\'E3o da caixa de di\'E1logo respons\'E1vel pelo tamanho do elips\'F3ide. dialog_pc - declara\'E7\'E3o da caixa de di\'E1logo respons\'E1vel pela defini\'E7\'E3o da cor.\par
+getBoxX() - retorna o valor inteiro do tamanho no eixo x. getBoxY() - retorna o valor inteiro do tamanho no eixo y. getBoxZ() - retorna o valor inteiro do tamanho no eixo z.\par
+getRaioX - pega o raio do elips\'F3ide no eixo x. getRaioY - pega o raio do elips\'F3ide no eixo y. getRaioZ - pega o raio do elips\'F3ide no eixo z. getRaioE - tamanho do raio geral da elips\'F3ide.\par
+getX() - pega o valor inteiro do plano x fornecido pelo usu\'E1rio. getY() - pega o valor inteiro do plano y fornecido pelo usu\'E1rio. getZ() - pega o valor inteiro do plano z fornecido pelo usu\'E1rio.\par
+fun\'E7\'E3o getRaio() retorna o valor inteiro do raio. \par
+}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Classes{\tc \v Classes}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe cores\par \pard\plain 
+{\tc\tcl2 \v cores}
+{\xe \v cores}
+{\bkmkstart AAAAAAAAAV}
+{\bkmkend AAAAAAAAAV}
+\par
+{
+{\f2 #include <cores.h>}}\par
+Diagrama de Hierarquia para cores:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classcores.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b cores} (QWidget *parent=nullptr)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b ~cores} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getCorR} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getCorG} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getCorB} ()\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Construtores & Destrutores\par
+\pard\plain 
+{\xe \v cores\:cores}
+{\xe \v cores\:cores}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+cores::cores (QWidget *  {\i parent} = {\f2 nullptr}){\f2 [explicit]}}}
+\par
+{\bkmkstart AAAAAAAAAW}
+{\bkmkend AAAAAAAAAW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid     4                             :\par
+    5     QDialog(parent),\par
+    6     ui(new Ui::cores)\par
+    7 \{\par
+    8     ui->setupUi(this);\par
+    9 \}\par
+}
+}
+{\xe \v ~cores\:cores}
+{\xe \v cores\:~cores}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+cores::~cores ()}}
+\par
+{\bkmkstart AAAAAAAAAX}
+{\bkmkend AAAAAAAAAX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    12 \{\par
+   13     delete ui;\par
+   14 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos\par
+\pard\plain 
+{\xe \v getCorB\:cores}
+{\xe \v cores\:getCorB}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int cores::getCorB ()}}
+\par
+{\bkmkstart AAAAAAAAAY}
+{\bkmkend AAAAAAAAAY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    27 \{\par
+   28     //ui->spinBoxCorB->value();\par
+   29 \}\par
+}
+}
+{\xe \v getCorG\:cores}
+{\xe \v cores\:getCorG}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int cores::getCorG ()}}
+\par
+{\bkmkstart AAAAAAAAAZ}
+{\bkmkend AAAAAAAAAZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    22 \{\par
+   23     //ui->spinBoxCorG->value();\par
+   24 \}\par
+}
+}
+{\xe \v getCorR\:cores}
+{\xe \v cores\:getCorR}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int cores::getCorR ()}}
+\par
+{\bkmkstart AAAAAAAABA}
+{\bkmkend AAAAAAAABA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    17 \{\par
+   18     //ui->horizontalSlider_CorR->setMaximum();\par
+   19 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para esta classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b cores.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b cores.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe definecolors\par \pard\plain 
+{\tc\tcl2 \v definecolors}
+{\xe \v definecolors}
+{\bkmkstart AAAAAAAABB}
+{\bkmkend AAAAAAAABB}
+\par
+{
+{\f2 #include <definecolors.h>}}\par
+Diagrama de Hierarquia para definecolors:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classdefinecolors.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b definecolors} (QWidget *parent=nullptr)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b ~definecolors} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getColorR} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getColorG} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getColorB} ()\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Construtores & Destrutores\par
+\pard\plain 
+{\xe \v definecolors\:definecolors}
+{\xe \v definecolors\:definecolors}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+definecolors::definecolors (QWidget *  {\i parent} = {\f2 nullptr}){\f2 [explicit]}}}
+\par
+{\bkmkstart AAAAAAAABC}
+{\bkmkend AAAAAAAABC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid     4                                           :\par
+    5     QDialog(parent),\par
+    6     ui(new Ui::definecolors)\par
+    7 \{\par
+    8     ui->setupUi(this);\par
+    9 \}\par
+}
+}
+{\xe \v ~definecolors\:definecolors}
+{\xe \v definecolors\:~definecolors}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+definecolors::~definecolors ()}}
+\par
+{\bkmkstart AAAAAAAABD}
+{\bkmkend AAAAAAAABD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    12 \{\par
+   13     delete ui;\par
+   14 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos\par
+\pard\plain 
+{\xe \v getColorB\:definecolors}
+{\xe \v definecolors\:getColorB}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int definecolors::getColorB ()}}
+\par
+{\bkmkstart AAAAAAAABE}
+{\bkmkend AAAAAAAABE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    27 \{\par
+   28     ui->horizontalSlider_CorB_4->value();\par
+   29 \}\par
+}
+}
+{\xe \v getColorG\:definecolors}
+{\xe \v definecolors\:getColorG}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int definecolors::getColorG ()}}
+\par
+{\bkmkstart AAAAAAAABF}
+{\bkmkend AAAAAAAABF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    22 \{\par
+   23     ui->horizontalSlider_CorG_4->value();\par
+   24 \}\par
+}
+}
+{\xe \v getColorR\:definecolors}
+{\xe \v definecolors\:getColorR}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int definecolors::getColorR ()}}
+\par
+{\bkmkstart AAAAAAAABG}
+{\bkmkend AAAAAAAABG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    17 \{\par
+   18     ui->horizontalSlider_CorR_4->value();\par
+   19 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para esta classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b definecolors.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b definecolors.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe MainWindow\par \pard\plain 
+{\tc\tcl2 \v MainWindow}
+{\xe \v MainWindow}
+{\bkmkstart AAAAAAAABH}
+{\bkmkend AAAAAAAABH}
+\par
+{
+{\f2 #include <mainwindow.h>}}\par
+Diagrama de Hierarquia para MainWindow:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_main_window.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Slots P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b fecharTudo} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b salvar} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b mudaDimensao} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b mudaPlanoZ} (int)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b put_Voxel} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b cut_Voxel} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b put_Box} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b cut_Box} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b put_Sphere} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b cut_Sphere} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b put_Ellipsoid} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b cut_Ellipsoid} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b coloca_cor} ()\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b MainWindow} (QWidget *parent=nullptr)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b ~MainWindow} ()\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Construtores & Destrutores\par
+\pard\plain 
+{\xe \v MainWindow\:MainWindow}
+{\xe \v MainWindow\:MainWindow}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+MainWindow::MainWindow (QWidget *  {\i parent} = {\f2 nullptr}){\f2 [explicit]}}}
+\par
+{\bkmkstart AAAAAAAABI}
+{\bkmkend AAAAAAAABI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid     5                                       :\par
+    6     QMainWindow(parent),\par
+    7     ui(new Ui::MainWindow)\par
+    8 \{\par
+    9     ui->setupUi(this);\par
+   10 \par
+   11     connect(ui->actionMudaDimensao,\par
+   12             SIGNAL(triggered(bool)),\par
+   13             this,\par
+   14             SLOT(mudaDimensao()));\par
+   15     connect(ui->horizontalSliderZ,\par
+   16             SIGNAL(valueChanged(int)),\par
+   17             this,\par
+   18             SLOT(mudaPlanoZ(int)));\par
+   19     connect(ui->actionPut_Box,\par
+   20             SIGNAL(triggered(bool)),\par
+   21             this,\par
+   22             SLOT(put_Box()));\par
+   23     connect(ui->actionPut_sphere,\par
+   24             SIGNAL(triggered(bool)),\par
+   25             this,\par
+   26             SLOT(put_Sphere()));\par
+   27     connect(ui->actionPut_Ellipsoid,\par
+   28             SIGNAL(triggered(bool)),\par
+   29             this,\par
+   30             SLOT(put_Ellipsoid()));\par
+   31     connect(ui->actionPut_Voxel,\par
+   32             SIGNAL(triggered(bool)),\par
+   33             this,\par
+   34             SLOT(put_Voxel()));\par
+   35     connect(ui->actionCut_Box,\par
+   36             SIGNAL(triggered(bool)),\par
+   37             this,\par
+   38             SLOT(cut_Box()));\par
+   39     connect(ui->actionCut_Voxel,\par
+   40             SIGNAL(triggered(bool)),\par
+   41             this,\par
+   42             SLOT(cut_Voxel()));\par
+   43     connect(ui->actionCut_Sphere,\par
+   44             SIGNAL(triggered(bool)),\par
+   45             this,\par
+   46             SLOT(cut_Sphere()));\par
+   47     connect(ui->actionCut_Ellipsoid,\par
+   48             SIGNAL(triggered(bool)),\par
+   49             this,\par
+   50             SLOT(cut_Ellipsoid()));\par
+   51     connect(ui->actionColor,\par
+   52             SIGNAL(triggered(bool)),\par
+   53             this,\par
+   54             SLOT(coloca_cor()));\par
+   55     connect(ui->actionSalvar,\par
+   56             SIGNAL(triggered(bool)),\par
+   57             this,\par
+   58             SLOT(salvar()));\par
+   59 \}\par
+}
+}
+{\xe \v ~MainWindow\:MainWindow}
+{\xe \v MainWindow\:~MainWindow}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+MainWindow::~MainWindow ()}}
+\par
+{\bkmkstart AAAAAAAABJ}
+{\bkmkend AAAAAAAABJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    62 \{\par
+   63     delete ui;\par
+   64 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos\par
+\pard\plain 
+{\xe \v coloca_cor\:MainWindow}
+{\xe \v MainWindow\:coloca_cor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void MainWindow::coloca_cor (){\f2 [slot]}}}
+\par
+{\bkmkstart AAAAAAAABK}
+{\bkmkend AAAAAAAABK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   153 \{\par
+  154     if(dialog_pc.exec()==QDialog::Accepted)\{\par
+  155         if(dialog_pc.getColorR()>=0 && dialog_pc.getColorR()<=255 && dialog_pc.getColorG()>=0 && dialog_pc.getColorG()<=255 && dialog_pc.getColorB()>=0 && dialog_pc.getColorB()<=255)\{\par
+  156             ui->widget->changeColors(dialog_pc.getColorR(),dialog_pc.getColorG(),dialog_pc.getColorB());\par
+  157         \}else\{\par
+  158             QMessageBox::information(this, tr("Erro"),tr("\\nvalores inv\'E1lidos, tente outra vez!\\n"));\par
+  159         \}\par
+  160     \}\par
+  161 \}\par
+}
+}
+{\xe \v cut_Box\:MainWindow}
+{\xe \v MainWindow\:cut_Box}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void MainWindow::cut_Box (){\f2 [slot]}}}
+\par
+{\bkmkstart AAAAAAAABL}
+{\bkmkend AAAAAAAABL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   140 \{\par
+  141     ui->widget->goCutBox();\par
+  142 \}\par
+}
+}
+{\xe \v cut_Ellipsoid\:MainWindow}
+{\xe \v MainWindow\:cut_Ellipsoid}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void MainWindow::cut_Ellipsoid (){\f2 [slot]}}}
+\par
+{\bkmkstart AAAAAAAABM}
+{\bkmkend AAAAAAAABM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   148 \{\par
+  149     ui->widget->goCutEllipsoid();\par
+  150 \}\par
+}
+}
+{\xe \v cut_Sphere\:MainWindow}
+{\xe \v MainWindow\:cut_Sphere}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void MainWindow::cut_Sphere (){\f2 [slot]}}}
+\par
+{\bkmkstart AAAAAAAABN}
+{\bkmkend AAAAAAAABN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   144 \{\par
+  145     ui->widget->goCutSphere();\par
+  146 \}\par
+}
+}
+{\xe \v cut_Voxel\:MainWindow}
+{\xe \v MainWindow\:cut_Voxel}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void MainWindow::cut_Voxel (){\f2 [slot]}}}
+\par
+{\bkmkstart AAAAAAAABO}
+{\bkmkend AAAAAAAABO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   163 \{\par
+  164     ui->widget->goCutVoxel();\par
+  165 \}\par
+}
+}
+{\xe \v fecharTudo\:MainWindow}
+{\xe \v MainWindow\:fecharTudo}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void MainWindow::fecharTudo (){\f2 [slot]}}}
+\par
+{\bkmkstart AAAAAAAABP}
+{\bkmkend AAAAAAAABP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    67 \{\par
+   68     exit(0);\par
+   69 \}\par
+}
+}
+{\xe \v mudaDimensao\:MainWindow}
+{\xe \v MainWindow\:mudaDimensao}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void MainWindow::mudaDimensao (){\f2 [slot]}}}
+\par
+{\bkmkstart AAAAAAAABQ}
+{\bkmkend AAAAAAAABQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    80 \{\par
+   81     if(d.exec()==QDialog::Accepted)\{\par
+   82         if(d.getX()!=0 && d.getY()!=0 && d.getZ()!=0)\{\par
+   83             ui->widget->changeSculptor(d.getX(),d.getY(),d.getZ());\par
+   84             ui->horizontalSliderZ->setMaximum(d.getZ());\par
+   85             repaint();\par
+   86         \}else\{\par
+   87             QMessageBox::information(this, tr("Erro"),tr("\\nvalores inv\'E1lidos, tente outra vez!\\n"));\par
+   88         \}\par
+   89     \}\par
+   90 \}\par
+}
+}
+{\xe \v mudaPlanoZ\:MainWindow}
+{\xe \v MainWindow\:mudaPlanoZ}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void MainWindow::mudaPlanoZ (int  {\i z}){\f2 [slot]}}}
+\par
+{\bkmkstart AAAAAAAABR}
+{\bkmkend AAAAAAAABR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    93 \{\par
+   94     ui->widget->changePlano(z);\par
+   95 \}\par
+}
+}
+{\xe \v put_Box\:MainWindow}
+{\xe \v MainWindow\:put_Box}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void MainWindow::put_Box (){\f2 [slot]}}}
+\par
+{\bkmkstart AAAAAAAABS}
+{\bkmkend AAAAAAAABS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    98 \{\par
+   99     if(dialog_pb.exec()==QDialog::Accepted)\{\par
+  100         if(dialog_pb.getBoxX()!=0 && dialog_pb.getBoxY()!=0 && dialog_pb.getBoxZ()!=0)\{\par
+  101             ui->widget->changePutBox(dialog_pb.getBoxX(),dialog_pb.getBoxY(),dialog_pb.getBoxZ());\par
+  102             ui->widget->goPutBox();\par
+  103             repaint();\par
+  104         \}else\{\par
+  105             QMessageBox::information(this, tr("Erro"),tr("\\nvalores inv\'E1lidos, tente outra vez!\\n"));\par
+  106         \}\par
+  107     \}\par
+  108 \}\par
+}
+}
+{\xe \v put_Ellipsoid\:MainWindow}
+{\xe \v MainWindow\:put_Ellipsoid}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void MainWindow::put_Ellipsoid (){\f2 [slot]}}}
+\par
+{\bkmkstart AAAAAAAABT}
+{\bkmkend AAAAAAAABT}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   124 \{\par
+  125     if(dialog_pe.exec()==QDialog::Accepted)\{\par
+  126         if(dialog_pe.getRaioX()!=0 && dialog_pe.getRaioY()!=0 && dialog_pe.getRaioZ()!=0)\{\par
+  127             ui->widget->changePutEllipsoid(dialog_pe.getRaioX(),dialog_pe.getRaioY(),dialog_pe.getRaioZ());\par
+  128             ui->widget->goPutEllipsoid();\par
+  129             repaint();\par
+  130         \}else\{\par
+  131             QMessageBox::information(this, tr("Erro"),tr("\\nvalores inv\'E1lidos, tente outra vez!\\n"));\par
+  132         \}\par
+  133     \}\par
+  134 \}\par
+}
+}
+{\xe \v put_Sphere\:MainWindow}
+{\xe \v MainWindow\:put_Sphere}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void MainWindow::put_Sphere (){\f2 [slot]}}}
+\par
+{\bkmkstart AAAAAAAABU}
+{\bkmkend AAAAAAAABU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   111 \{\par
+  112     if(dialog_ps.exec()==QDialog::Accepted)\{\par
+  113         if(dialog_ps.getRaio()!=0)\{\par
+  114             ui->widget->changePutSphere(dialog_ps.getRaio());\par
+  115             ui->widget->goPutSphere();\par
+  116             repaint();\par
+  117         \}else\{\par
+  118             QMessageBox::information(this, tr("Erro"),tr("\\nvalores inv\'E1lidos, tente outra vez!\\n"));\par
+  119         \}\par
+  120     \}\par
+  121 \}\par
+}
+}
+{\xe \v put_Voxel\:MainWindow}
+{\xe \v MainWindow\:put_Voxel}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void MainWindow::put_Voxel (){\f2 [slot]}}}
+\par
+{\bkmkstart AAAAAAAABV}
+{\bkmkend AAAAAAAABV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   136 \{\par
+  137     ui->widget->goPutVoxel();\par
+  138 \}\par
+}
+}
+{\xe \v salvar\:MainWindow}
+{\xe \v MainWindow\:salvar}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void MainWindow::salvar (){\f2 [slot]}}}
+\par
+{\bkmkstart AAAAAAAABW}
+{\bkmkend AAAAAAAABW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    72 \{\par
+   73     QString qs=QFileDialog::getSaveFileName();\par
+   74     qs=qs+".off";\par
+   75     //qDebug()<<qs;\par
+   76     ui->widget->sculptor->writeOFF(qs.toStdString().c_str());\par
+   77 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para esta classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b mainwindow.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b mainwindow.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe Plotter\par \pard\plain 
+{\tc\tcl2 \v Plotter}
+{\xe \v Plotter}
+{\bkmkstart AAAAAAAABX}
+{\bkmkend AAAAAAAABX}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The {\b Plotter} class a classe respons\'E1vel por todas as fun\'E7\'F5es de plotagem dos par\'E2metros e a\'E7\'F5es do usu\'E1rio ao desenhar. }}\par
+{
+{\f2 #include <plotter.h>}}\par
+Diagrama de Hierarquia para Plotter:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_plotter.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Plotter} (QWidget *parent=nullptr)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b paintEvent} (QPaintEvent *event)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b changeSculptor} (int sx, int sy, int sz)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b changePutBox} (int {\b dx}, int {\b dy}, int dz)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b changePutSphere} (int {\b r})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b changePutEllipsoid} (int raioX, int raioY, int raioZ)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b changePlano} (int _Dz)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b changeColors} (int cr, int cg, int cb)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b goPutVoxel} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b goCutVoxel} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b goPutBox} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b goCutBox} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b goPutSphere} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b goCutSphere} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b goPutEllipsoid} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b goCutEllipsoid} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b mouseMoveEvent} (QMouseEvent *event)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b mousePressEvent} (QMouseEvent *event)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Sculptor} * {\b sculptor}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b dx} =0\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b dy} =0\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b Dz} =0\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b r} =0\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b g} =0\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b b} =0\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b nx} =10\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b ny} =10\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b nz} =10\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b x1} =0\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b y1} =0\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b z1} =0\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b RaioS} =0\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b xraios} =0\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b yraios} =0\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b zraios} =0\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b putvoxel} =false\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b cutvoxel} =false\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b putbox} =false\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b cutbox} =false\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b putsphere} =false\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b cutsphere} =false\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b putellipsoid} =false\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b cutellipsoid} = false\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o Detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The {\b Plotter} class a classe respons\'E1vel por todas as fun\'E7\'F5es de plotagem dos par\'E2metros e a\'E7\'F5es do usu\'E1rio ao desenhar. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Construtores & Destrutores\par
+\pard\plain 
+{\xe \v Plotter\:Plotter}
+{\xe \v Plotter\:Plotter}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Plotter::Plotter (QWidget *  {\i parent} = {\f2 nullptr}){\f2 [explicit]}}}
+\par
+{\bkmkstart AAAAAAAABY}
+{\bkmkend AAAAAAAABY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid     9                                 : QWidget(parent)\par
+   10 \{\par
+   11     sculptor= new Sculptor(10,10,10);\par
+   12 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos\par
+\pard\plain 
+{\xe \v changeColors\:Plotter}
+{\xe \v Plotter\:changeColors}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Plotter::changeColors (int  {\i cr}, int  {\i cg}, int  {\i cb})}}
+\par
+{\bkmkstart AAAAAAAABZ}
+{\bkmkend AAAAAAAABZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    91 \{\par
+   92     r=cr;\par
+   93     g=cg;\par
+   94     b=cb;\par
+   95 \}\par
+}
+}
+{\xe \v changePlano\:Plotter}
+{\xe \v Plotter\:changePlano}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Plotter::changePlano (int  {\i _Dz})}}
+\par
+{\bkmkstart AAAAAAAACA}
+{\bkmkend AAAAAAAACA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    85 \{\par
+   86     Dz=_Dz;\par
+   87     repaint();\par
+   88 \}\par
+}
+}
+{\xe \v changePutBox\:Plotter}
+{\xe \v Plotter\:changePutBox}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Plotter::changePutBox (int  {\i dx}, int  {\i dy}, int  {\i dz})}}
+\par
+{\bkmkstart AAAAAAAACB}
+{\bkmkend AAAAAAAACB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    66 \{\par
+   67     x1=dx;\par
+   68     y1=dy;\par
+   69     z1=dz;\par
+   70 \}\par
+}
+}
+{\xe \v changePutEllipsoid\:Plotter}
+{\xe \v Plotter\:changePutEllipsoid}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Plotter::changePutEllipsoid (int  {\i raioX}, int  {\i raioY}, int  {\i raioZ})}}
+\par
+{\bkmkstart AAAAAAAACC}
+{\bkmkend AAAAAAAACC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    78 \{\par
+   79     xraios=raioX;\par
+   80     yraios=raioY;\par
+   81     zraios=raioZ;\par
+   82 \}\par
+}
+}
+{\xe \v changePutSphere\:Plotter}
+{\xe \v Plotter\:changePutSphere}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Plotter::changePutSphere (int  {\i r})}}
+\par
+{\bkmkstart AAAAAAAACD}
+{\bkmkend AAAAAAAACD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    73 \{\par
+   74     RaioS=r;\par
+   75 \}\par
+}
+}
+{\xe \v changeSculptor\:Plotter}
+{\xe \v Plotter\:changeSculptor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Plotter::changeSculptor (int  {\i sx}, int  {\i sy}, int  {\i sz})}}
+\par
+{\bkmkstart AAAAAAAACE}
+{\bkmkend AAAAAAAACE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    57 \{\par
+   58     delete sculptor;\par
+   59     nx=sx;\par
+   60     ny=sy;\par
+   61     nz=sz;\par
+   62     sculptor = new Sculptor(nx,ny,nz);\par
+   63 \}\par
+}
+}
+{\xe \v goCutBox\:Plotter}
+{\xe \v Plotter\:goCutBox}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Plotter::goCutBox ()}}
+\par
+{\bkmkstart AAAAAAAACF}
+{\bkmkend AAAAAAAACF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   134 \{\par
+  135     putvoxel = false;\par
+  136     cutvoxel = false;\par
+  137     putbox = false;\par
+  138     cutbox =  true;\par
+  139     putsphere = false;\par
+  140     cutsphere = false;\par
+  141     putellipsoid = false;\par
+  142     cutellipsoid = false;\par
+  143 \}\par
+}
+}
+{\xe \v goCutEllipsoid\:Plotter}
+{\xe \v Plotter\:goCutEllipsoid}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Plotter::goCutEllipsoid ()}}
+\par
+{\bkmkstart AAAAAAAACG}
+{\bkmkend AAAAAAAACG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   182 \{\par
+  183     putvoxel = false;\par
+  184     cutvoxel = false;\par
+  185     putbox = false;\par
+  186     cutbox =  false;\par
+  187     putsphere = false;\par
+  188     cutsphere = false;\par
+  189     putellipsoid = false;\par
+  190     cutellipsoid = true;\par
+  191 \}\par
+}
+}
+{\xe \v goCutSphere\:Plotter}
+{\xe \v Plotter\:goCutSphere}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Plotter::goCutSphere ()}}
+\par
+{\bkmkstart AAAAAAAACH}
+{\bkmkend AAAAAAAACH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   158 \{\par
+  159     putvoxel = false;\par
+  160     cutvoxel = false;\par
+  161     putbox = false;\par
+  162     cutbox =  false;\par
+  163     putsphere = false;\par
+  164     cutsphere = true;\par
+  165     putellipsoid = false;\par
+  166     cutellipsoid = false;\par
+  167 \}\par
+}
+}
+{\xe \v goCutVoxel\:Plotter}
+{\xe \v Plotter\:goCutVoxel}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Plotter::goCutVoxel ()}}
+\par
+{\bkmkstart AAAAAAAACI}
+{\bkmkend AAAAAAAACI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   110 \{\par
+  111     putvoxel = false;\par
+  112     cutvoxel = true;\par
+  113     putbox = false;\par
+  114     cutbox =  false;\par
+  115     putsphere = false;\par
+  116     cutsphere = false;\par
+  117     putellipsoid = false;\par
+  118     cutellipsoid = false;\par
+  119 \}\par
+}
+}
+{\xe \v goPutBox\:Plotter}
+{\xe \v Plotter\:goPutBox}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Plotter::goPutBox ()}}
+\par
+{\bkmkstart AAAAAAAACJ}
+{\bkmkend AAAAAAAACJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   122 \{\par
+  123     putvoxel = false;\par
+  124     cutvoxel = false;\par
+  125     putbox = true;\par
+  126     cutbox =  false;\par
+  127     putsphere = false;\par
+  128     cutsphere = false;\par
+  129     putellipsoid = false;\par
+  130     cutellipsoid = false;\par
+  131 \}\par
+}
+}
+{\xe \v goPutEllipsoid\:Plotter}
+{\xe \v Plotter\:goPutEllipsoid}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Plotter::goPutEllipsoid ()}}
+\par
+{\bkmkstart AAAAAAAACK}
+{\bkmkend AAAAAAAACK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   170 \{\par
+  171     putvoxel = false;\par
+  172     cutvoxel = false;\par
+  173     putbox = false;\par
+  174     cutbox =  false;\par
+  175     putsphere = false;\par
+  176     cutsphere = false;\par
+  177     putellipsoid = true;\par
+  178     cutellipsoid = false;\par
+  179 \}\par
+}
+}
+{\xe \v goPutSphere\:Plotter}
+{\xe \v Plotter\:goPutSphere}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Plotter::goPutSphere ()}}
+\par
+{\bkmkstart AAAAAAAACL}
+{\bkmkend AAAAAAAACL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   146 \{\par
+  147     putvoxel = false;\par
+  148     cutvoxel = false;\par
+  149     putbox = false;\par
+  150     cutbox =  false;\par
+  151     putsphere = true;\par
+  152     cutsphere = false;\par
+  153     putellipsoid = false;\par
+  154     cutellipsoid = false;\par
+  155 \}\par
+}
+}
+{\xe \v goPutVoxel\:Plotter}
+{\xe \v Plotter\:goPutVoxel}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Plotter::goPutVoxel ()}}
+\par
+{\bkmkstart AAAAAAAACM}
+{\bkmkend AAAAAAAACM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    98 \{\par
+   99     putvoxel = true;\par
+  100     cutvoxel = false;\par
+  101     putbox = false;\par
+  102     cutbox =  false;\par
+  103     putsphere = false;\par
+  104     cutsphere = false;\par
+  105     putellipsoid = false;\par
+  106     cutellipsoid = false;\par
+  107 \}\par
+}
+}
+{\xe \v mouseMoveEvent\:Plotter}
+{\xe \v Plotter\:mouseMoveEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Plotter::mouseMoveEvent (QMouseEvent *  {\i event})}}
+\par
+{\bkmkstart AAAAAAAACN}
+{\bkmkend AAAAAAAACN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   194 \{\par
+  195     dx=event->x();\par
+  196     dy=event->y();\par
+  197     int linha=width()/nx;\par
+  198     int coluna=height()/ny;\par
+  199     dx=(dx/linha);\par
+  200     dy=(dy/coluna);\par
+  201 \par
+  202     if(putvoxel)\{\par
+  203         sculptor->setColor(r,g,b,1);\par
+  204         sculptor->putVoxel(dx,dy,Dz);\par
+  205     \}\par
+  206     if(cutvoxel)\{\par
+  207         sculptor->cutVoxel(dx,dy,Dz);\par
+  208     \}\par
+  209     if(putbox)\{\par
+  210         sculptor->setColor(r,g,b,1);\par
+  211         sculptor->putBox(dx,dx+x1-1,dy,dy+y1-1,Dz,Dz+z1-1);\par
+  212     \}\par
+  213     if(cutbox)\{\par
+  214         sculptor->cutBox(dx,dx+x1,dy,dy+y1,Dz,Dz+z1);\par
+  215     \}\par
+  216     if(putsphere)\{\par
+  217         sculptor->setColor(r,g,b,1);\par
+  218         sculptor->putSphere(dx,dy,Dz,RaioS);\par
+  219     \}\par
+  220     if(cutsphere)\{\par
+  221         sculptor->cutSphere(dx,dy,Dz,RaioS);\par
+  222     \}\par
+  223     if(putellipsoid)\{\par
+  224         sculptor->setColor(r,g,b,1);\par
+  225         sculptor->putEllipsoid(dx,dy,Dz,xraios,yraios,zraios);\par
+  226     \}\par
+  227     if(cutellipsoid)\{\par
+  228         sculptor->cutEllipsoid(dx,dy,Dz,xraios,yraios,zraios);\par
+  229     \}\par
+  230     repaint();\par
+  231 \}\par
+}
+}
+{\xe \v mousePressEvent\:Plotter}
+{\xe \v Plotter\:mousePressEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Plotter::mousePressEvent (QMouseEvent *  {\i event})}}
+\par
+{\bkmkstart AAAAAAAACO}
+{\bkmkend AAAAAAAACO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   234 \{\par
+  235 \par
+  236     dx=event->x();\par
+  237     dy=event->y();\par
+  238     int linha=width()/nx;\par
+  239     int coluna=height()/ny;\par
+  240     dx=(dx/linha);\par
+  241     dy=(dy/coluna);\par
+  242 \par
+  243     if(putvoxel)\{\par
+  244         sculptor->setColor(r,g,b,1);\par
+  245         sculptor->putVoxel(dx,dy,Dz);\par
+  246     \}\par
+  247     if(cutvoxel)\{\par
+  248         sculptor->cutVoxel(dx,dy,Dz);\par
+  249     \}\par
+  250     if(putbox)\{\par
+  251         sculptor->setColor(r,g,b,1);\par
+  252         sculptor->putBox(dx,dx+x1-1,dy,dy+y1-1,Dz,Dz+z1-1);\par
+  253     \}\par
+  254     if(cutbox)\{\par
+  255         sculptor->cutBox(dx,dx+x1,dy,dy+y1,Dz,Dz+z1);\par
+  256     \}\par
+  257     if(putsphere)\{\par
+  258         sculptor->setColor(r,g,b,1);\par
+  259         sculptor->putSphere(dx,dy,Dz,RaioS);\par
+  260     \}\par
+  261     if(cutsphere)\{\par
+  262         sculptor->cutSphere(dx,dy,Dz,RaioS);\par
+  263     \}\par
+  264     if(putellipsoid)\{\par
+  265         sculptor->setColor(r,g,b,1);\par
+  266         sculptor->putEllipsoid(dx,dy,Dz,xraios,yraios,zraios);\par
+  267     \}\par
+  268     if(cutellipsoid)\{\par
+  269         sculptor->cutEllipsoid(dx,dy,Dz,xraios,yraios,zraios);\par
+  270     \}\par
+  271     repaint();\par
+  272 \}\par
+}
+}
+{\xe \v paintEvent\:Plotter}
+{\xe \v Plotter\:paintEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Plotter::paintEvent (QPaintEvent *  {\i event})}}
+\par
+{\bkmkstart AAAAAAAACP}
+{\bkmkend AAAAAAAACP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    15 \{\par
+   16 \par
+   17     QPainter painter(this);\par
+   18     QBrush brush;\par
+   19     QPen pen;\par
+   20 \par
+   21     int larg = width() - width()%nx;\par
+   22     int alt = height() - height()%ny;\par
+   23 \par
+   24     brush.setColor(QColor(255,255,255));\par
+   25     brush.setStyle(Qt::SolidPattern);\par
+   26     pen.setColor(QColor(0,0,0));\par
+   27     pen.setWidth(1);\par
+   28     pen.setStyle(Qt::SolidLine);\par
+   29     painter.setPen(pen);\par
+   30     painter.setBrush(brush);\par
+   31 \par
+   32     int contx=0,conty=0;\par
+   33     for (int i=1;i<=ny;i++) \{\par
+   34         contx=0;\par
+   35         for (int j=1;j<=nx;j++) \{\par
+   36             painter.drawRect(contx,conty,width()/nx,height()/ny);\par
+   37             contx+=(float)(width()/nx);\par
+   38         \}\par
+   39         conty+=(float)(height()/ny);\par
+   40     \}\par
+   41 \par
+   42     for(int i=0;i<nx;i++)\par
+   43     \{\par
+   44         for(int j=0;j<ny;j++)\par
+   45         \{\par
+   46             if(sculptor->getisOn(i,j,Dz))\par
+   47             \{\par
+   48                 brush.setColor(QColor(sculptor->getR(i,j,Dz)*255,sculptor->getG(i,j,Dz)*255,sculptor->getB(i,j,Dz)*255));\par
+   49                 painter.setBrush(brush);\par
+   50                 painter.drawRect(i*(larg/nx),j*(alt/ny),larg/nx,alt/ny);\par
+   51             \}\par
+   52         \}\par
+   53     \}\par
+   54 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v b\:Plotter}
+{\xe \v Plotter\:b}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float Plotter::b =0}}
+\par
+{\bkmkstart AAAAAAAACQ}
+{\bkmkend AAAAAAAACQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v cutbox\:Plotter}
+{\xe \v Plotter\:cutbox}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Plotter::cutbox =false}}
+\par
+{\bkmkstart AAAAAAAACR}
+{\bkmkend AAAAAAAACR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v cutellipsoid\:Plotter}
+{\xe \v Plotter\:cutellipsoid}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Plotter::cutellipsoid = false}}
+\par
+{\bkmkstart AAAAAAAACS}
+{\bkmkend AAAAAAAACS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v cutsphere\:Plotter}
+{\xe \v Plotter\:cutsphere}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Plotter::cutsphere =false}}
+\par
+{\bkmkstart AAAAAAAACT}
+{\bkmkend AAAAAAAACT}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v cutvoxel\:Plotter}
+{\xe \v Plotter\:cutvoxel}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Plotter::cutvoxel =false}}
+\par
+{\bkmkstart AAAAAAAACU}
+{\bkmkend AAAAAAAACU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v dx\:Plotter}
+{\xe \v Plotter\:dx}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Plotter::dx =0}}
+\par
+{\bkmkstart AAAAAAAACV}
+{\bkmkend AAAAAAAACV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v dy\:Plotter}
+{\xe \v Plotter\:dy}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Plotter::dy =0}}
+\par
+{\bkmkstart AAAAAAAACW}
+{\bkmkend AAAAAAAACW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v Dz\:Plotter}
+{\xe \v Plotter\:Dz}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Plotter::Dz =0}}
+\par
+{\bkmkstart AAAAAAAACX}
+{\bkmkend AAAAAAAACX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v g\:Plotter}
+{\xe \v Plotter\:g}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float Plotter::g =0}}
+\par
+{\bkmkstart AAAAAAAACY}
+{\bkmkend AAAAAAAACY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v nx\:Plotter}
+{\xe \v Plotter\:nx}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Plotter::nx =10}}
+\par
+{\bkmkstart AAAAAAAACZ}
+{\bkmkend AAAAAAAACZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v ny\:Plotter}
+{\xe \v Plotter\:ny}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Plotter::ny =10}}
+\par
+{\bkmkstart AAAAAAAADA}
+{\bkmkend AAAAAAAADA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v nz\:Plotter}
+{\xe \v Plotter\:nz}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Plotter::nz =10}}
+\par
+{\bkmkstart AAAAAAAADB}
+{\bkmkend AAAAAAAADB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v putbox\:Plotter}
+{\xe \v Plotter\:putbox}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Plotter::putbox =false}}
+\par
+{\bkmkstart AAAAAAAADC}
+{\bkmkend AAAAAAAADC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v putellipsoid\:Plotter}
+{\xe \v Plotter\:putellipsoid}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Plotter::putellipsoid =false}}
+\par
+{\bkmkstart AAAAAAAADD}
+{\bkmkend AAAAAAAADD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v putsphere\:Plotter}
+{\xe \v Plotter\:putsphere}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Plotter::putsphere =false}}
+\par
+{\bkmkstart AAAAAAAADE}
+{\bkmkend AAAAAAAADE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v putvoxel\:Plotter}
+{\xe \v Plotter\:putvoxel}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Plotter::putvoxel =false}}
+\par
+{\bkmkstart AAAAAAAADF}
+{\bkmkend AAAAAAAADF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v r\:Plotter}
+{\xe \v Plotter\:r}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float Plotter::r =0}}
+\par
+{\bkmkstart AAAAAAAADG}
+{\bkmkend AAAAAAAADG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v RaioS\:Plotter}
+{\xe \v Plotter\:RaioS}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Plotter::RaioS =0}}
+\par
+{\bkmkstart AAAAAAAADH}
+{\bkmkend AAAAAAAADH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v sculptor\:Plotter}
+{\xe \v Plotter\:sculptor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Sculptor}* Plotter::sculptor}}
+\par
+{\bkmkstart AAAAAAAADI}
+{\bkmkend AAAAAAAADI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v x1\:Plotter}
+{\xe \v Plotter\:x1}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Plotter::x1 =0}}
+\par
+{\bkmkstart AAAAAAAADJ}
+{\bkmkend AAAAAAAADJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v xraios\:Plotter}
+{\xe \v Plotter\:xraios}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Plotter::xraios =0}}
+\par
+{\bkmkstart AAAAAAAADK}
+{\bkmkend AAAAAAAADK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v y1\:Plotter}
+{\xe \v Plotter\:y1}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Plotter::y1 =0}}
+\par
+{\bkmkstart AAAAAAAADL}
+{\bkmkend AAAAAAAADL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v yraios\:Plotter}
+{\xe \v Plotter\:yraios}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Plotter::yraios =0}}
+\par
+{\bkmkstart AAAAAAAADM}
+{\bkmkend AAAAAAAADM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v z1\:Plotter}
+{\xe \v Plotter\:z1}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Plotter::z1 =0}}
+\par
+{\bkmkstart AAAAAAAADN}
+{\bkmkend AAAAAAAADN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v zraios\:Plotter}
+{\xe \v Plotter\:zraios}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Plotter::zraios =0}}
+\par
+{\bkmkstart AAAAAAAADO}
+{\bkmkend AAAAAAAADO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para esta classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b plotter.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b plotter.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe Sculptor\par \pard\plain 
+{\tc\tcl2 \v Sculptor}
+{\xe \v Sculptor}
+{\bkmkstart AAAAAAAADP}
+{\bkmkend AAAAAAAADP}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The {\b Sculptor} class a classe que possui a declara\'E7\'E3o de todos os m\'E9todos utilizados para cria\'E7\'E3o das figuras. E \'E9 respons\'E1vel por alocar uma matriz tridimensional de tamanho nx,ny,nz. }}\par
+{
+{\f2 #include <sculptor.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Sculptor} (int _nx, int _ny, int _nz)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b ~Sculptor} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setColor} (float {\b r}, float {\b g}, float {\b b}, float alpha)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b putVoxel} (int x, int y, int z)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b cutVoxel} (int x, int y, int z)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b putBox} (int x0, int x1, int y0, int y1, int z0, int z1)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b cutBox} (int x0, int x1, int y0, int y1, int z0, int z1)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b putSphere} (int xcenter, int ycenter, int zcenter, int radius)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b cutSphere} (int xcenter, int ycenter, int zcenter, int radius)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b putEllipsoid} (int xcenter, int ycenter, int zcenter, int rx, int ry, int rz)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b cutEllipsoid} (int xcenter, int ycenter, int zcenter, int rx, int ry, int rz)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b writeOFF} (const char *filename)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b getisOn} (int i, int j, int k)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b getR} (int i, int j, int k)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b getG} (int i, int j, int k)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b getB} (int i, int j, int k)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos Protegidos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+std::vector< std::vector< std::vector< {\b Voxel} > > > {\b v}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b nx}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b ny}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b nz}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b r}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b g}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b b}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b a}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o Detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The {\b Sculptor} class a classe que possui a declara\'E7\'E3o de todos os m\'E9todos utilizados para cria\'E7\'E3o das figuras. E \'E9 respons\'E1vel por alocar uma matriz tridimensional de tamanho nx,ny,nz. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Construtores & Destrutores\par
+\pard\plain 
+{\xe \v Sculptor\:Sculptor}
+{\xe \v Sculptor\:Sculptor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Sculptor::Sculptor (int  {\i _nx}, int  {\i _ny}, int  {\i _nz})}}
+\par
+{\bkmkstart AAAAAAAADQ}
+{\bkmkend AAAAAAAADQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    12 \{\par
+   13     nx=_nx; ny=_ny; nz=_nz;\par
+   14 \par
+   15     Voxel vox;\par
+   16 \par
+   17     v = vector< vector< vector< Voxel> > > (nx,vector<vector<Voxel>>(ny,vector<Voxel>(nz,vox)));\par
+   18 \par
+   19     for(int i=0; i<_nx;i++)\par
+   20     \{\par
+   21         for(int j = 0; j<_ny;j++)\par
+   22         \{\par
+   23             for(int k=0; k<_nz;k++)\par
+   24             \{\par
+   25                 v[i][j][k].isOn = false;\par
+   26             \}\par
+   27         \}\par
+   28     \}\par
+   29 \}\par
+}
+}
+{\xe \v ~Sculptor\:Sculptor}
+{\xe \v Sculptor\:~Sculptor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Sculptor::~Sculptor ()}}
+\par
+{\bkmkstart AAAAAAAADR}
+{\bkmkend AAAAAAAADR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    32 \{\par
+   33 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos\par
+\pard\plain 
+{\xe \v cutBox\:Sculptor}
+{\xe \v Sculptor\:cutBox}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Sculptor::cutBox (int  {\i x0}, int  {\i x1}, int  {\i y0}, int  {\i y1}, int  {\i z0}, int  {\i z1})}}
+\par
+{\bkmkstart AAAAAAAADS}
+{\bkmkend AAAAAAAADS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    84 \{\par
+   85         for(int i = x0; i<=x1; i++)\par
+   86         \{\par
+   87             for(int j = y0; j<=y1; j++)\par
+   88             \{\par
+   89                 for(int k = z0; k<=z1;k++)\par
+   90                 \{\par
+   91                     if(i>=0 && j>=0 && k>=0 && i<nx && j<ny && k<nz)\{\par
+   92                         v[i][j][k].isOn = false;\par
+   93                         v[i][j][k].r = r;\par
+   94                         v[i][j][k].g = g;\par
+   95                         v[i][j][k].b = b;\par
+   96                         v[i][j][k].a = a;\par
+   97                     \}\par
+   98                 \}\par
+   99             \}\par
+  100         \}\par
+  101 \}\par
+}
+}
+{\xe \v cutEllipsoid\:Sculptor}
+{\xe \v Sculptor\:cutEllipsoid}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Sculptor::cutEllipsoid (int  {\i xcenter}, int  {\i ycenter}, int  {\i zcenter}, int  {\i rx}, int  {\i ry}, int  {\i rz})}}
+\par
+{\bkmkstart AAAAAAAADT}
+{\bkmkend AAAAAAAADT}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   168 \{\par
+  169     for(int i = xcenter-rx; i<=xcenter+rx; i++)\par
+  170     \{\par
+  171         for(int j = ycenter-ry; j<=ycenter+ry; j++)\par
+  172         \{\par
+  173             for(int k = zcenter-rz; k<=zcenter+rz; k++)\par
+  174             \{\par
+  175                 if(i>=0 && j>=0 && k>=0 && i<nx && j<ny && k<nz)\{\par
+  176                     if((((float)pow((i-xcenter),2)/(float)pow(rx,2))+((float)pow((j-ycenter),2)/(float)pow(ry,2))+((float)pow((k-zcenter),2)/(float)pow(rz,2)))<=1.0)\{\par
+  177                         v[i][j][k].r = r;\par
+  178                         v[i][j][k].g = g;\par
+  179                         v[i][j][k].b = b;\par
+  180                         v[i][j][k].a = a;\par
+  181                         v[i][j][k].isOn = false;\par
+  182                     \}\par
+  183                 \}\par
+  184             \}\par
+  185         \}\par
+  186     \}\par
+  187 \}\par
+}
+}
+{\xe \v cutSphere\:Sculptor}
+{\xe \v Sculptor\:cutSphere}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Sculptor::cutSphere (int  {\i xcenter}, int  {\i ycenter}, int  {\i zcenter}, int  {\i radius})}}
+\par
+{\bkmkstart AAAAAAAADU}
+{\bkmkend AAAAAAAADU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   125 \{\par
+  126     for(int i = xcenter-radius; i<=xcenter+radius; i++)\par
+  127     \{\par
+  128         for(int j = ycenter-radius; j<=ycenter+radius; j++)\par
+  129         \{\par
+  130             for(int k = zcenter-radius; k<=zcenter+radius; k++)\par
+  131             \{\par
+  132                 if((pow((i-xcenter),2)+pow((j-ycenter),2)+pow((k-zcenter),2))<=pow(radius,2))\{\par
+  133                     v[i][j][k].r = r;\par
+  134                     v[i][j][k].g = g;\par
+  135                     v[i][j][k].b = b;\par
+  136                     v[i][j][k].a = a;\par
+  137                     v[i][j][k].isOn = false;\par
+  138                 \}\par
+  139             \}\par
+  140         \}\par
+  141     \}\par
+  142 \par
+  143 \}\par
+}
+}
+{\xe \v cutVoxel\:Sculptor}
+{\xe \v Sculptor\:cutVoxel}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Sculptor::cutVoxel (int  {\i x}, int  {\i y}, int  {\i z})}}
+\par
+{\bkmkstart AAAAAAAADV}
+{\bkmkend AAAAAAAADV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    56 \{\par
+   57     if(x>=0 && y>=0 && z>=0 && x<nx && y<ny && z<nz)\{\par
+   58         v[x][y][z].isOn = false;\par
+   59     \}\par
+   60 \}\par
+}
+}
+{\xe \v getB\:Sculptor}
+{\xe \v Sculptor\:getB}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float Sculptor::getB (int  {\i i}, int  {\i j}, int  {\i k})}}
+\par
+{\bkmkstart AAAAAAAADW}
+{\bkmkend AAAAAAAADW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   264 \{\par
+  265     return v[i][j][k].b;\par
+  266 \}\par
+}
+}
+{\xe \v getG\:Sculptor}
+{\xe \v Sculptor\:getG}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float Sculptor::getG (int  {\i i}, int  {\i j}, int  {\i k})}}
+\par
+{\bkmkstart AAAAAAAADX}
+{\bkmkend AAAAAAAADX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   259 \{\par
+  260     return v[i][j][k].g;\par
+  261 \}\par
+}
+}
+{\xe \v getisOn\:Sculptor}
+{\xe \v Sculptor\:getisOn}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Sculptor::getisOn (int  {\i i}, int  {\i j}, int  {\i k})}}
+\par
+{\bkmkstart AAAAAAAADY}
+{\bkmkend AAAAAAAADY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   249 \{\par
+  250     return v[x][y][z].isOn;\par
+  251 \}\par
+}
+}
+{\xe \v getR\:Sculptor}
+{\xe \v Sculptor\:getR}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float Sculptor::getR (int  {\i i}, int  {\i j}, int  {\i k})}}
+\par
+{\bkmkstart AAAAAAAADZ}
+{\bkmkend AAAAAAAADZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   254 \{\par
+  255     return v[i][j][k].r;\par
+  256 \}\par
+}
+}
+{\xe \v putBox\:Sculptor}
+{\xe \v Sculptor\:putBox}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Sculptor::putBox (int  {\i x0}, int  {\i x1}, int  {\i y0}, int  {\i y1}, int  {\i z0}, int  {\i z1})}}
+\par
+{\bkmkstart AAAAAAAAEA}
+{\bkmkend AAAAAAAAEA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    63 \{\par
+   64 \par
+   65         for(int i = x0; i<=x1; i++)\par
+   66         \{\par
+   67             for(int j = y0; j<=y1; j++)\par
+   68             \{\par
+   69                 for(int k = z0; k<=z1;k++)\par
+   70                 \{\par
+   71                     if(i>=0 && j>=0 && k>=0 && i<nx && j<ny && k<nz)\{\par
+   72                         v[i][j][k].r = r;\par
+   73                         v[i][j][k].g = g;\par
+   74                         v[i][j][k].b = b;\par
+   75                         v[i][j][k].a = a;\par
+   76                         v[i][j][k].isOn = true;\par
+   77                 \}\par
+   78             \}\par
+   79         \}\par
+   80     \}\par
+   81 \}\par
+}
+}
+{\xe \v putEllipsoid\:Sculptor}
+{\xe \v Sculptor\:putEllipsoid}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Sculptor::putEllipsoid (int  {\i xcenter}, int  {\i ycenter}, int  {\i zcenter}, int  {\i rx}, int  {\i ry}, int  {\i rz})}}
+\par
+{\bkmkstart AAAAAAAAEB}
+{\bkmkend AAAAAAAAEB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   146 \{\par
+  147     for(int i = xcenter-rx; i<=xcenter+rx; i++)\par
+  148     \{\par
+  149         for(int j = ycenter-ry; j<=ycenter+ry; j++)\par
+  150         \{\par
+  151             for(int k = zcenter-rz; k<=zcenter+rz; k++)\par
+  152             \{\par
+  153                 if(i>=0 && j>=0 && k>=0 && i<nx && j<ny && k<nz)\{\par
+  154                     if((((float)pow((i-xcenter),2)/(float)pow(rx,2))+((float)pow((j-ycenter),2)/(float)pow(ry,2))+((float)pow((k-zcenter),2)/(float)pow(rz,2)))<=1.0)\{\par
+  155                         v[i][j][k].r = r;\par
+  156                         v[i][j][k].g = g;\par
+  157                         v[i][j][k].b = b;\par
+  158                         v[i][j][k].a = a;\par
+  159                         v[i][j][k].isOn = true;\par
+  160                     \}\par
+  161                 \}\par
+  162             \}\par
+  163         \}\par
+  164     \}\par
+  165 \}\par
+}
+}
+{\xe \v putSphere\:Sculptor}
+{\xe \v Sculptor\:putSphere}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Sculptor::putSphere (int  {\i xcenter}, int  {\i ycenter}, int  {\i zcenter}, int  {\i radius})}}
+\par
+{\bkmkstart AAAAAAAAEC}
+{\bkmkend AAAAAAAAEC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   104 \{\par
+  105     for(int i = xcenter-radius; i<=xcenter+radius; i++)\par
+  106     \{\par
+  107             for(int j = ycenter-radius; j<=ycenter+radius; j++)\par
+  108             \{\par
+  109                     for(int k = zcenter-radius; k<=zcenter+radius; k++)\par
+  110                     \{\par
+  111                         if((pow((i-xcenter),2)+pow((j-ycenter),2)+pow((k-zcenter),2))<=pow(radius,2))\{\par
+  112                             if(i>=0 && j>=0 && k>=0 && i<nx && j<ny && k<nz)\{\par
+  113                             v[i][j][k].r = r;\par
+  114                             v[i][j][k].g = g;\par
+  115                             v[i][j][k].b = b;\par
+  116                             v[i][j][k].a = a;\par
+  117                             v[i][j][k].isOn = true;\}\par
+  118                         \}\par
+  119                     \}\par
+  120                 \}\par
+  121         \}\par
+  122 \}\par
+}
+}
+{\xe \v putVoxel\:Sculptor}
+{\xe \v Sculptor\:putVoxel}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Sculptor::putVoxel (int  {\i x}, int  {\i y}, int  {\i z})}}
+\par
+{\bkmkstart AAAAAAAAED}
+{\bkmkend AAAAAAAAED}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    44 \{\par
+   45     if(x>=0 && y>=0 && z>=0 && x<nx && y<ny && z<nz)\par
+   46     \{\par
+   47         v[x][y][z].r = r;\par
+   48         v[x][y][z].g = g;\par
+   49         v[x][y][z].b = b;\par
+   50         v[x][y][z].a = a;\par
+   51         v[x][y][z].isOn = true;\par
+   52     \}\par
+   53 \}\par
+}
+}
+{\xe \v setColor\:Sculptor}
+{\xe \v Sculptor\:setColor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Sculptor::setColor (float  {\i r}, float  {\i g}, float  {\i b}, float  {\i alpha})}}
+\par
+{\bkmkstart AAAAAAAAEE}
+{\bkmkend AAAAAAAAEE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    36 \{\par
+   37     this -> r = r;\par
+   38     this -> g = g;\par
+   39     this -> b = b;\par
+   40     this -> a = alpha;\par
+   41 \}\par
+}
+}
+{\xe \v writeOFF\:Sculptor}
+{\xe \v Sculptor\:writeOFF}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Sculptor::writeOFF (const char *  {\i filename})}}
+\par
+{\bkmkstart AAAAAAAAEF}
+{\bkmkend AAAAAAAAEF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   190 \{\par
+  191     int n_vertices = 0, n_faces = 0, n_arestas = 0;\par
+  192         ofstream fileout;\par
+  193         fileout.open(filename);\par
+  194         if(!fileout.is_open())\{\par
+  195             exit(0);\par
+  196         \}\par
+  197         fileout << std::fixed << std::setprecision(1) << std::endl;\par
+  198         for(int i = 0; i < nx; i++)\{\par
+  199             for(int j = 0; j < ny; j++)\{\par
+  200                 for(int k = 0; k < nz; k++)\{\par
+  201                     if(v[i][j][k].isOn)\{\par
+  202                         n_vertices += 8;\par
+  203                         n_faces += 6;\par
+  204                     \}\par
+  205                 \}\par
+  206             \}\par
+  207         \}\par
+  208         fileout<<"OFF"<<endl;\par
+  209         fileout<<n_vertices<<" "<<n_faces<<" "<<n_arestas<<endl;\par
+  210 \par
+  211         for(int i = 0; i < nx; i++)\{\par
+  212             for(int j = 0; j < ny; j++)\{\par
+  213                 for(int k = 0; k < nz; k++)\{\par
+  214                     if(v[i][j][k].isOn)\{\par
+  215                         fileout<<i-0.5<<" "<<j+0.5<<" "<<k-0.5<<endl;\par
+  216                         fileout<<i-0.5<<" "<<j-0.5<<" "<<k-0.5<<endl;\par
+  217                         fileout<<i+0.5<<" "<<j-0.5<<" "<<k-0.5<<endl;\par
+  218                         fileout<<i+0.5<<" "<<j+0.5<<" "<<k-0.5<<endl;\par
+  219                         fileout<<i-0.5<<" "<<j+0.5<<" "<<k+0.5<<endl;\par
+  220                         fileout<<i-0.5<<" "<<j-0.5<<" "<<k+0.5<<endl;\par
+  221                         fileout<<i+0.5<<" "<<j-0.5<<" "<<k+0.5<<endl;\par
+  222                         fileout<<i+0.5<<" "<<j+0.5<<" "<<k+0.5<<endl;\par
+  223                     \}\par
+  224                 \}\par
+  225             \}\par
+  226         \}\par
+  227         int aux = 0;\par
+  228         for(int i = 0; i < nx; i++)\{\par
+  229             for(int j = 0; j < ny; j++)\{\par
+  230                 for(int k = 0; k < nz; k++)\{\par
+  231                     if(v[i][j][k].isOn)\{\par
+  232                         fileout<<"4 "<<0+8*aux<<" "<<3+8*aux<<" "<<2+8*aux<<" "<<1+8*aux<<" "<<v[i][j][k].r<<" "<<v[i][j][k].g<<" "<<v[i][j][k].b<<" "<<v[i][j][k].a<<endl;\par
+  233                         fileout<<"4 "<<4+8*aux<<" "<<5+8*aux<<" "<<6+8*aux<<" "<<7+8*aux<<" "<<v[i][j][k].r<<" "<<v[i][j][k].g<<" "<<v[i][j][k].b<<" "<<v[i][j][k].a<<endl;\par
+  234                         fileout<<"4 "<<0+8*aux<<" "<<1+8*aux<<" "<<5+8*aux<<" "<<4+8*aux<<" "<<v[i][j][k].r<<" "<<v[i][j][k].g<<" "<<v[i][j][k].b<<" "<<v[i][j][k].a<<endl;\par
+  235                         fileout<<"4 "<<0+8*aux<<" "<<4+8*aux<<" "<<7+8*aux<<" "<<3+8*aux<<" "<<v[i][j][k].r<<" "<<v[i][j][k].g<<" "<<v[i][j][k].b<<" "<<v[i][j][k].a<<endl;\par
+  236                         fileout<<"4 "<<3+8*aux<<" "<<7+8*aux<<" "<<6+8*aux<<" "<<2+8*aux<<" "<<v[i][j][k].r<<" "<<v[i][j][k].g<<" "<<v[i][j][k].b<<" "<<v[i][j][k].a<<endl;\par
+  237                         fileout<<"4 "<<1+8*aux<<" "<<2+8*aux<<" "<<6+8*aux<<" "<<5+8*aux<<" "<<v[i][j][k].r<<" "<<v[i][j][k].g<<" "<<v[i][j][k].b<<" "<<v[i][j][k].a<<endl;\par
+  238                         aux++;\par
+  239                     \}\par
+  240                 \}\par
+  241             \}\par
+  242         \}\par
+  243         fileout.close();\par
+  244 \par
+  245 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v a\:Sculptor}
+{\xe \v Sculptor\:a}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float Sculptor::a{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAAEG}
+{\bkmkend AAAAAAAAEG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v b\:Sculptor}
+{\xe \v Sculptor\:b}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float Sculptor::b{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAAEH}
+{\bkmkend AAAAAAAAEH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v g\:Sculptor}
+{\xe \v Sculptor\:g}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float Sculptor::g{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAAEI}
+{\bkmkend AAAAAAAAEI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v nx\:Sculptor}
+{\xe \v Sculptor\:nx}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Sculptor::nx{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAAEJ}
+{\bkmkend AAAAAAAAEJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v ny\:Sculptor}
+{\xe \v Sculptor\:ny}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Sculptor::ny{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAAEK}
+{\bkmkend AAAAAAAAEK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v nz\:Sculptor}
+{\xe \v Sculptor\:nz}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Sculptor::nz{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAAEL}
+{\bkmkend AAAAAAAAEL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v r\:Sculptor}
+{\xe \v Sculptor\:r}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float Sculptor::r{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAAEM}
+{\bkmkend AAAAAAAAEM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v v\:Sculptor}
+{\xe \v Sculptor\:v}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+std::vector< std::vector< std::vector< {\b Voxel} > > > Sculptor::v{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAAEN}
+{\bkmkend AAAAAAAAEN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para esta classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b sculptor.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b sculptor.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe tamanhoBox\par \pard\plain 
+{\tc\tcl2 \v tamanhoBox}
+{\xe \v tamanhoBox}
+{\bkmkstart AAAAAAAAEO}
+{\bkmkend AAAAAAAAEO}
+\par
+{
+{\f2 #include <tamanhobox.h>}}\par
+Diagrama de Hierarquia para tamanhoBox:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classtamanho_box.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b tamanhoBox} (QWidget *parent=nullptr)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b ~tamanhoBox} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getBoxX} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getBoxY} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getBoxZ} ()\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Construtores & Destrutores\par
+\pard\plain 
+{\xe \v tamanhoBox\:tamanhoBox}
+{\xe \v tamanhoBox\:tamanhoBox}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+tamanhoBox::tamanhoBox (QWidget *  {\i parent} = {\f2 nullptr}){\f2 [explicit]}}}
+\par
+{\bkmkstart AAAAAAAAEP}
+{\bkmkend AAAAAAAAEP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid     4                                       :\par
+    5     QDialog(parent),\par
+    6     ui(new Ui::tamanhoBox)\par
+    7 \{\par
+    8     ui->setupUi(this);\par
+    9 \}\par
+}
+}
+{\xe \v ~tamanhoBox\:tamanhoBox}
+{\xe \v tamanhoBox\:~tamanhoBox}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+tamanhoBox::~tamanhoBox ()}}
+\par
+{\bkmkstart AAAAAAAAEQ}
+{\bkmkend AAAAAAAAEQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    12 \{\par
+   13     delete ui;\par
+   14 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos\par
+\pard\plain 
+{\xe \v getBoxX\:tamanhoBox}
+{\xe \v tamanhoBox\:getBoxX}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int tamanhoBox::getBoxX ()}}
+\par
+{\bkmkstart AAAAAAAAER}
+{\bkmkend AAAAAAAAER}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    17 \{\par
+   18     ui->spinBoxBoxX->value();\par
+   19 \}\par
+}
+}
+{\xe \v getBoxY\:tamanhoBox}
+{\xe \v tamanhoBox\:getBoxY}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int tamanhoBox::getBoxY ()}}
+\par
+{\bkmkstart AAAAAAAAES}
+{\bkmkend AAAAAAAAES}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    22 \{\par
+   23     ui->spinBoxBoxY->value();\par
+   24 \}\par
+}
+}
+{\xe \v getBoxZ\:tamanhoBox}
+{\xe \v tamanhoBox\:getBoxZ}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int tamanhoBox::getBoxZ ()}}
+\par
+{\bkmkstart AAAAAAAAET}
+{\bkmkend AAAAAAAAET}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    27 \{\par
+   28     ui->spinBoxBoxZ->value();\par
+   29 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para esta classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b tamanhobox.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b tamanhobox.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe tamanhoEllipsoid\par \pard\plain 
+{\tc\tcl2 \v tamanhoEllipsoid}
+{\xe \v tamanhoEllipsoid}
+{\bkmkstart AAAAAAAAEU}
+{\bkmkend AAAAAAAAEU}
+\par
+{
+{\f2 #include <tamanhoellipsoid.h>}}\par
+Diagrama de Hierarquia para tamanhoEllipsoid:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classtamanho_ellipsoid.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b tamanhoEllipsoid} (QWidget *parent=nullptr)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b ~tamanhoEllipsoid} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getRaioX} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getRaioY} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getRaioZ} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getRaioE} ()\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Construtores & Destrutores\par
+\pard\plain 
+{\xe \v tamanhoEllipsoid\:tamanhoEllipsoid}
+{\xe \v tamanhoEllipsoid\:tamanhoEllipsoid}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+tamanhoEllipsoid::tamanhoEllipsoid (QWidget *  {\i parent} = {\f2 nullptr}){\f2 [explicit]}}}
+\par
+{\bkmkstart AAAAAAAAEV}
+{\bkmkend AAAAAAAAEV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid     4                                                   :\par
+    5     QDialog(parent),\par
+    6     ui(new Ui::tamanhoEllipsoid)\par
+    7 \{\par
+    8     ui->setupUi(this);\par
+    9 \}\par
+}
+}
+{\xe \v ~tamanhoEllipsoid\:tamanhoEllipsoid}
+{\xe \v tamanhoEllipsoid\:~tamanhoEllipsoid}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+tamanhoEllipsoid::~tamanhoEllipsoid ()}}
+\par
+{\bkmkstart AAAAAAAAEW}
+{\bkmkend AAAAAAAAEW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    12 \{\par
+   13     delete ui;\par
+   14 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos\par
+\pard\plain 
+{\xe \v getRaioE\:tamanhoEllipsoid}
+{\xe \v tamanhoEllipsoid\:getRaioE}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int tamanhoEllipsoid::getRaioE ()}}
+\par
+{\bkmkstart AAAAAAAAEX}
+{\bkmkend AAAAAAAAEX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    32 \{\par
+   33     ui->spinBoxElipseR->value();\par
+   34 \}\par
+}
+}
+{\xe \v getRaioX\:tamanhoEllipsoid}
+{\xe \v tamanhoEllipsoid\:getRaioX}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int tamanhoEllipsoid::getRaioX ()}}
+\par
+{\bkmkstart AAAAAAAAEY}
+{\bkmkend AAAAAAAAEY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    17 \{\par
+   18     ui->spinBoxElipseX->value();\par
+   19 \}\par
+}
+}
+{\xe \v getRaioY\:tamanhoEllipsoid}
+{\xe \v tamanhoEllipsoid\:getRaioY}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int tamanhoEllipsoid::getRaioY ()}}
+\par
+{\bkmkstart AAAAAAAAEZ}
+{\bkmkend AAAAAAAAEZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    22 \{\par
+   23     ui->spinBoxElipseY->value();\par
+   24 \}\par
+}
+}
+{\xe \v getRaioZ\:tamanhoEllipsoid}
+{\xe \v tamanhoEllipsoid\:getRaioZ}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int tamanhoEllipsoid::getRaioZ ()}}
+\par
+{\bkmkstart AAAAAAAAFA}
+{\bkmkend AAAAAAAAFA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    27 \{\par
+   28     ui->spinBoxELipseZ->value();\par
+   29 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para esta classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b tamanhoellipsoid.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b tamanhoellipsoid.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe TamanhoSculptor\par \pard\plain 
+{\tc\tcl2 \v TamanhoSculptor}
+{\xe \v TamanhoSculptor}
+{\bkmkstart AAAAAAAAFB}
+{\bkmkend AAAAAAAAFB}
+\par
+{
+{\f2 #include <tamanhosculptor.h>}}\par
+Diagrama de Hierarquia para TamanhoSculptor:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_tamanho_sculptor.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b TamanhoSculptor} (QWidget *parent=nullptr)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b ~TamanhoSculptor} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getX} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getY} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getZ} ()\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Construtores & Destrutores\par
+\pard\plain 
+{\xe \v TamanhoSculptor\:TamanhoSculptor}
+{\xe \v TamanhoSculptor\:TamanhoSculptor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+TamanhoSculptor::TamanhoSculptor (QWidget *  {\i parent} = {\f2 nullptr}){\f2 [explicit]}}}
+\par
+{\bkmkstart AAAAAAAAFC}
+{\bkmkend AAAAAAAAFC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid     3                                                 :\par
+    4     QDialog(parent),\par
+    5     ui(new Ui::TamanhoSculptor)\par
+    6 \{\par
+    7     ui->setupUi(this);\par
+    8 \}\par
+}
+}
+{\xe \v ~TamanhoSculptor\:TamanhoSculptor}
+{\xe \v TamanhoSculptor\:~TamanhoSculptor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+TamanhoSculptor::~TamanhoSculptor ()}}
+\par
+{\bkmkstart AAAAAAAAFD}
+{\bkmkend AAAAAAAAFD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    11 \{\par
+   12     delete ui;\par
+   13 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos\par
+\pard\plain 
+{\xe \v getX\:TamanhoSculptor}
+{\xe \v TamanhoSculptor\:getX}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int TamanhoSculptor::getX ()}}
+\par
+{\bkmkstart AAAAAAAAFE}
+{\bkmkend AAAAAAAAFE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    16 \{\par
+   17     return ui->spinBoxX->value();\par
+   18 \}\par
+}
+}
+{\xe \v getY\:TamanhoSculptor}
+{\xe \v TamanhoSculptor\:getY}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int TamanhoSculptor::getY ()}}
+\par
+{\bkmkstart AAAAAAAAFF}
+{\bkmkend AAAAAAAAFF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    21 \{\par
+   22     return ui->spinBoxY->value();\par
+   23 \}\par
+}
+}
+{\xe \v getZ\:TamanhoSculptor}
+{\xe \v TamanhoSculptor\:getZ}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int TamanhoSculptor::getZ ()}}
+\par
+{\bkmkstart AAAAAAAAFG}
+{\bkmkend AAAAAAAAFG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    26 \{\par
+   27     return ui->spinBoxZ->value();\par
+   28 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para esta classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b tamanhosculptor.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b tamanhosculptor.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Classe tamanhoSphere\par \pard\plain 
+{\tc\tcl2 \v tamanhoSphere}
+{\xe \v tamanhoSphere}
+{\bkmkstart AAAAAAAAFH}
+{\bkmkend AAAAAAAAFH}
+\par
+{
+{\f2 #include <tamanhosphere.h>}}\par
+Diagrama de Hierarquia para tamanhoSphere:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classtamanho_sphere.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b tamanhoSphere} (QWidget *parent=nullptr)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b ~tamanhoSphere} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getRaio} ()\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Construtores & Destrutores\par
+\pard\plain 
+{\xe \v tamanhoSphere\:tamanhoSphere}
+{\xe \v tamanhoSphere\:tamanhoSphere}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+tamanhoSphere::tamanhoSphere (QWidget *  {\i parent} = {\f2 nullptr}){\f2 [explicit]}}}
+\par
+{\bkmkstart AAAAAAAAFI}
+{\bkmkend AAAAAAAAFI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid     4                                             :\par
+    5     QDialog(parent),\par
+    6     ui(new Ui::tamanhoSphere)\par
+    7 \{\par
+    8     ui->setupUi(this);\par
+    9 \}\par
+}
+}
+{\xe \v ~tamanhoSphere\:tamanhoSphere}
+{\xe \v tamanhoSphere\:~tamanhoSphere}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+tamanhoSphere::~tamanhoSphere ()}}
+\par
+{\bkmkstart AAAAAAAAFJ}
+{\bkmkend AAAAAAAAFJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    12 \{\par
+   13     delete ui;\par
+   14 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos\par
+\pard\plain 
+{\xe \v getRaio\:tamanhoSphere}
+{\xe \v tamanhoSphere\:getRaio}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int tamanhoSphere::getRaio ()}}
+\par
+{\bkmkstart AAAAAAAAFK}
+{\bkmkend AAAAAAAAFK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    17 \{\par
+   18     ui->spinBoxEsperaR->value();\par
+   19 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para esta classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b tamanhosphere.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b tamanhosphere.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Estrutura Voxel\par \pard\plain 
+{\tc\tcl2 \v Voxel}
+{\xe \v Voxel}
+{\bkmkstart AAAAAAAAFL}
+{\bkmkend AAAAAAAAFL}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The {\b Voxel} struct \'E9 a defini\'E7\'E3o do tipo de dados {\b Voxel}, os quais possuem informa\'E7\'E3o de cor, transpar\'EAncia e se ser\'E1 inclu\'EDdo ou n\'E3o no modelo da escultura digital. }}\par
+{
+{\f2 #include <voxel.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b r}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b g}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b b}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+float {\b a}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b isOn}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descri\'E7\'E3o Detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The {\b Voxel} struct \'E9 a defini\'E7\'E3o do tipo de dados {\b Voxel}, os quais possuem informa\'E7\'E3o de cor, transpar\'EAncia e se ser\'E1 inclu\'EDdo ou n\'E3o no modelo da escultura digital. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v a\:Voxel}
+{\xe \v Voxel\:a}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float Voxel::a}}
+\par
+{\bkmkstart AAAAAAAAFM}
+{\bkmkend AAAAAAAAFM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v b\:Voxel}
+{\xe \v Voxel\:b}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float Voxel::b}}
+\par
+{\bkmkstart AAAAAAAAFN}
+{\bkmkend AAAAAAAAFN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v g\:Voxel}
+{\xe \v Voxel\:g}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float Voxel::g}}
+\par
+{\bkmkstart AAAAAAAAFO}
+{\bkmkend AAAAAAAAFO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v isOn\:Voxel}
+{\xe \v Voxel\:isOn}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool Voxel::isOn}}
+\par
+{\bkmkstart AAAAAAAAFP}
+{\bkmkend AAAAAAAAFP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v r\:Voxel}
+{\xe \v Voxel\:r}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+float Voxel::r}}
+\par
+{\bkmkstart AAAAAAAAFQ}
+{\bkmkend AAAAAAAAFQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para esta estrutura foi gerada a partir do seguinte arquivo:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b voxel.h}\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Arquivos{\tc \v Arquivos}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo cores.cpp\par \pard\plain 
+{\tc\tcl2 \v cores.cpp}
+{\xe \v cores.cpp}
+{\bkmkstart AAAAAAAAAA}
+{\bkmkend AAAAAAAAAA}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "cores.h"}\par
+{\f2 #include "ui_cores.h"}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo cores.h\par \pard\plain 
+{\tc\tcl2 \v cores.h}
+{\xe \v cores.h}
+{\bkmkstart AAAAAAAAAB}
+{\bkmkend AAAAAAAAAB}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <QDialog>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b cores}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+ {\b Ui}\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The definecolors class a classe respons\'E1vel pela caixa de di\'E1logo que \'E9 aberta quando o usu\'E1rio clica no m\'E9todo Color onde o usu\'E1rio pode definir a cor dos objetos que ser\'E3o desenhados pelos os outros m\'E9todos. }}}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo definecolors.cpp\par \pard\plain 
+{\tc\tcl2 \v definecolors.cpp}
+{\xe \v definecolors.cpp}
+{\bkmkstart AAAAAAAAAC}
+{\bkmkend AAAAAAAAAC}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "definecolors.h"}\par
+{\f2 #include "ui_definecolors.h"}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo definecolors.h\par \pard\plain 
+{\tc\tcl2 \v definecolors.h}
+{\xe \v definecolors.h}
+{\bkmkstart AAAAAAAAAD}
+{\bkmkend AAAAAAAAAD}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <QDialog>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b definecolors}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+ {\b Ui}\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The definecolors class a classe respons\'E1vel pela caixa de di\'E1logo que \'E9 aberta quando o usu\'E1rio clica no m\'E9todo Color onde o usu\'E1rio pode definir a cor dos objetos que ser\'E3o desenhados pelos os outros m\'E9todos. }}}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo main.cpp\par \pard\plain 
+{\tc\tcl2 \v main.cpp}
+{\xe \v main.cpp}
+{\bkmkstart AAAAAAAAAE}
+{\bkmkend AAAAAAAAAE}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "mainwindow.h"}\par
+{\f2 #include <QApplication>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b main} (int argc, char *argv[])\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+{\xe \v main\:main.cpp}
+{\xe \v main.cpp\:main}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int main (int  {\i argc}, char *  {\i argv}[])}}
+\par
+{\bkmkstart AAAAAAAAAF}
+{\bkmkend AAAAAAAAAF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid     5 \{\par
+    6     QApplication a(argc, argv);\par
+    7     MainWindow w;\par
+    8     w.show();\par
+    9 \par
+   10     return a.exec();\par
+   11 \}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo mainwindow.cpp\par \pard\plain 
+{\tc\tcl2 \v mainwindow.cpp}
+{\xe \v mainwindow.cpp}
+{\bkmkstart AAAAAAAAAG}
+{\bkmkend AAAAAAAAAG}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "mainwindow.h"}\par
+{\f2 #include "ui_mainwindow.h"}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo mainwindow.h\par \pard\plain 
+{\tc\tcl2 \v mainwindow.h}
+{\xe \v mainwindow.h}
+{\bkmkstart AAAAAAAAAH}
+{\bkmkend AAAAAAAAAH}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <QMainWindow>}\par
+{\f2 #include <cstdlib>}\par
+{\f2 #include "plotter.h"}\par
+{\f2 #include "tamanhosculptor.h"}\par
+{\f2 #include "tamanhobox.h"}\par
+{\f2 #include "tamanhosphere.h"}\par
+{\f2 #include "tamanhoellipsoid.h"}\par
+{\f2 #include "definecolors.h"}\par
+{\f2 #include "QMessageBox"}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b MainWindow}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+ {\b Ui}\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The definecolors class a classe respons\'E1vel pela caixa de di\'E1logo que \'E9 aberta quando o usu\'E1rio clica no m\'E9todo Color onde o usu\'E1rio pode definir a cor dos objetos que ser\'E3o desenhados pelos os outros m\'E9todos. }}}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo plotter.cpp\par \pard\plain 
+{\tc\tcl2 \v plotter.cpp}
+{\xe \v plotter.cpp}
+{\bkmkstart AAAAAAAAAI}
+{\bkmkend AAAAAAAAAI}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "plotter.h"}\par
+{\f2 #include <QPainter>}\par
+{\f2 #include <QBrush>}\par
+{\f2 #include <QPen>}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo plotter.h\par \pard\plain 
+{\tc\tcl2 \v plotter.h}
+{\xe \v plotter.h}
+{\bkmkstart AAAAAAAAAJ}
+{\bkmkend AAAAAAAAAJ}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <QWidget>}\par
+{\f2 #include <QAction>}\par
+{\f2 #include "sculptor.h"}\par
+{\f2 #include <QMouseEvent>}\par
+{\f2 #include <QString>}\par
+{\f2 #include <QFileDialog>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Plotter}\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The {\b Plotter} class a classe respons\'E1vel por todas as fun\'E7\'F5es de plotagem dos par\'E2metros e a\'E7\'F5es do usu\'E1rio ao desenhar. }}}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo sculptor.cpp\par \pard\plain 
+{\tc\tcl2 \v sculptor.cpp}
+{\xe \v sculptor.cpp}
+{\bkmkstart AAAAAAAAAK}
+{\bkmkend AAAAAAAAAK}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "sculptor.h"}\par
+{\f2 #include <cmath>}\par
+{\f2 #include <fstream>}\par
+{\f2 #include <string>}\par
+{\f2 #include <iostream>}\par
+{\f2 #include <vector>}\par
+{\f2 #include <iomanip>}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo sculptor.h\par \pard\plain 
+{\tc\tcl2 \v sculptor.h}
+{\xe \v sculptor.h}
+{\bkmkstart AAAAAAAAAL}
+{\bkmkend AAAAAAAAAL}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "voxel.h"}\par
+{\f2 #include <vector>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Sculptor}\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The {\b Sculptor} class a classe que possui a declara\'E7\'E3o de todos os m\'E9todos utilizados para cria\'E7\'E3o das figuras. E \'E9 respons\'E1vel por alocar uma matriz tridimensional de tamanho nx,ny,nz. }}}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo tamanhobox.cpp\par \pard\plain 
+{\tc\tcl2 \v tamanhobox.cpp}
+{\xe \v tamanhobox.cpp}
+{\bkmkstart AAAAAAAAAM}
+{\bkmkend AAAAAAAAAM}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "tamanhobox.h"}\par
+{\f2 #include "ui_tamanhobox.h"}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo tamanhobox.h\par \pard\plain 
+{\tc\tcl2 \v tamanhobox.h}
+{\xe \v tamanhobox.h}
+{\bkmkstart AAAAAAAAAN}
+{\bkmkend AAAAAAAAAN}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <QDialog>}\par
+{\f2 #include "plotter.h"}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b tamanhoBox}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+ {\b Ui}\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The definecolors class a classe respons\'E1vel pela caixa de di\'E1logo que \'E9 aberta quando o usu\'E1rio clica no m\'E9todo Color onde o usu\'E1rio pode definir a cor dos objetos que ser\'E3o desenhados pelos os outros m\'E9todos. }}}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo tamanhoellipsoid.cpp\par \pard\plain 
+{\tc\tcl2 \v tamanhoellipsoid.cpp}
+{\xe \v tamanhoellipsoid.cpp}
+{\bkmkstart AAAAAAAAAO}
+{\bkmkend AAAAAAAAAO}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "tamanhoellipsoid.h"}\par
+{\f2 #include "ui_tamanhoellipsoid.h"}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo tamanhoellipsoid.h\par \pard\plain 
+{\tc\tcl2 \v tamanhoellipsoid.h}
+{\xe \v tamanhoellipsoid.h}
+{\bkmkstart AAAAAAAAAP}
+{\bkmkend AAAAAAAAAP}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <QDialog>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b tamanhoEllipsoid}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+ {\b Ui}\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The definecolors class a classe respons\'E1vel pela caixa de di\'E1logo que \'E9 aberta quando o usu\'E1rio clica no m\'E9todo Color onde o usu\'E1rio pode definir a cor dos objetos que ser\'E3o desenhados pelos os outros m\'E9todos. }}}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo tamanhosculptor.cpp\par \pard\plain 
+{\tc\tcl2 \v tamanhosculptor.cpp}
+{\xe \v tamanhosculptor.cpp}
+{\bkmkstart AAAAAAAAAQ}
+{\bkmkend AAAAAAAAAQ}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "tamanhosculptor.h"}\par
+{\f2 #include "ui_tamanhosculptor.h"}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo tamanhosculptor.h\par \pard\plain 
+{\tc\tcl2 \v tamanhosculptor.h}
+{\xe \v tamanhosculptor.h}
+{\bkmkstart AAAAAAAAAR}
+{\bkmkend AAAAAAAAAR}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <QDialog>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b TamanhoSculptor}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+ {\b Ui}\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The definecolors class a classe respons\'E1vel pela caixa de di\'E1logo que \'E9 aberta quando o usu\'E1rio clica no m\'E9todo Color onde o usu\'E1rio pode definir a cor dos objetos que ser\'E3o desenhados pelos os outros m\'E9todos. }}}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo tamanhosphere.cpp\par \pard\plain 
+{\tc\tcl2 \v tamanhosphere.cpp}
+{\xe \v tamanhosphere.cpp}
+{\bkmkstart AAAAAAAAAS}
+{\bkmkend AAAAAAAAAS}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "tamanhosphere.h"}\par
+{\f2 #include "ui_tamanhosphere.h"}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo tamanhosphere.h\par \pard\plain 
+{\tc\tcl2 \v tamanhosphere.h}
+{\xe \v tamanhosphere.h}
+{\bkmkstart AAAAAAAAAT}
+{\bkmkend AAAAAAAAAT}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <QDialog>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b tamanhoSphere}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+ {\b Ui}\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The definecolors class a classe respons\'E1vel pela caixa de di\'E1logo que \'E9 aberta quando o usu\'E1rio clica no m\'E9todo Color onde o usu\'E1rio pode definir a cor dos objetos que ser\'E3o desenhados pelos os outros m\'E9todos. }}}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo voxel.h\par \pard\plain 
+{\tc\tcl2 \v voxel.h}
+{\xe \v voxel.h}
+{\bkmkstart AAAAAAAAAU}
+{\bkmkend AAAAAAAAAU}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b Voxel}\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The {\b Voxel} struct \'E9 a defini\'E7\'E3o do tipo de dados {\b Voxel}, os quais possuem informa\'E7\'E3o de cor, transpar\'EAncia e se ser\'E1 inclu\'EDdo ou n\'E3o no modelo da escultura digital. }}}
+}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \'CDndice\par 
+\pard\plain 
+{\tc \v \'CDndice}
+{\field\fldedit {\*\fldinst INDEX \\c2 \\*MERGEFORMAT}{\fldrslt INDEX}}
+}
