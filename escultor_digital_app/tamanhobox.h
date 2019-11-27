@@ -4,6 +4,18 @@
 #include <QDialog>
 #include "plotter.h"
 
+/**
+ * @brief The tamanhoBox class
+ * a classe responsável pela caixa de diálogo
+ * que é aberta quando o usuário clica no método
+ * putBox onde o usuário pode definir o tamanho
+ * da caixa nos eixos x,y,z.
+ * @details 
+ * getBoxX() - retorna o valor inteiro do tamanho no eixo x.
+ * getBoxY() - retorna o valor inteiro do tamanho no eixo y.
+ * getBoxZ() - retorna o valor inteiro do tamanho no eixo z.
+ */
+
 namespace Ui {
 class tamanhoBox;
 }
