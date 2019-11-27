@@ -16,4 +16,4 @@ Para conseguir usar esta aplicação é relativamente simples, basta seguir os p
 
   3) Para escolher a cor, é so aperta o botao Cor, e configura conforme desejado.
 
-  4)Terminado seu projeto, é so aperta em salva e nomear seu documento, salvo no formato .off, onde podera ser aberto em varios programas que suportão essa extensão, um deles é o Geomeview.
+  4) Terminado seu projeto, é so aperta em salva e nomear seu documento, salvo no formato .off, onde podera ser aberto em varios programas que suportão essa extensão, um deles é o Geomeview.
