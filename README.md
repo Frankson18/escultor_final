@@ -16,4 +16,4 @@ Para conseguir usar esta aplicação é relativamente simples, basta seguir os p
 
   3) Para escolher a cor, é só apertar o botão Color, e configura conforme desejado.
 
-  4) Terminado seu projeto, é so apertar em salva e nomear seu documento, salvo no formato .off, onde poderá ser aberto em vários programas que suportão essa extensão, um deles é o Geomeview (Linux) e MeshLab (Windows).
+  4) Terminado seu projeto, é so apertar em salvar e nomear seu documento, será salvo no formato .off, onde poderá ser aberto em vários programas que suportão essa extensão, um deles é o Geomeview (Linux) e MeshLab (Windows).
