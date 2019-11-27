@@ -12,8 +12,7 @@
  * @brief The Plotter class
  * a classe responsável por todas as funções 
  * de plotagem dos parâmetros e ações do usuário
- * ao desenhar. As funções são usadas na mainwindow 
- * de acordo com as ações.
+ * ao desenhar. 
  */
 
 class Plotter : public QWidget
