@@ -3,6 +3,17 @@
 
 #include <QDialog>
 
+/**
+ * @brief The TamanhoSculptor class
+ * classe responsável pela caixa de diálogo
+ * aberta quando o usuário clica no mudardimensão
+ * onde ele pode setar o tamanho dos planos x,y,z.
+ * @details
+ * getX() - pega o valor inteiro do plano x fornecido pelo usuário.
+ * getY() - pega o valor inteiro do plano y fornecido pelo usuário.
+ * getZ() - pega o valor inteiro do plano z fornecido pelo usuário.
+ */
+
 namespace Ui {
 class TamanhoSculptor;
 }
